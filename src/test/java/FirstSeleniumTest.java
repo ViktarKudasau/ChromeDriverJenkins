@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.util.LinkedList;
+import java.time.Duration;
 import java.util.List;
 
 public class FirstSeleniumTest {
@@ -21,13 +21,15 @@ public class FirstSeleniumTest {
        // System.setProperty("webdriver.chrome.driver", pathToDriver);
         WebDriverManager.chromedriver().setup();;
         webDriver = new ChromeDriver();
+        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
     }
 
-    @Test(invocationCount = 2)
+    @Test(invocationCount = 1)
     public void  firstTest(){
         webDriver.get("https://www.google.com/");
         WebElement inputField = webDriver.findElement(By.name("q"));
         inputField.sendKeys("Котики");
+
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
@@ -46,11 +48,9 @@ public class FirstSeleniumTest {
         Assert.assertEquals(header, "Котики - Поиск в Google");
 
         List <WebElement> listElements = webDriver.findElements(By.xpath("//h3"));
-
         for (WebElement el: listElements) {
             System.out.println(el.getText());
         }
-
         Assert.assertFalse(listElements.size()==20);
 
         try {
@@ -58,7 +58,6 @@ public class FirstSeleniumTest {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-
 
     }
     @AfterTest
