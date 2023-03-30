@@ -30,12 +30,12 @@ public class FirstTest_Copy_Chupin {
       //  WebElement inputField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("input1")));
 
         //WebElement inputField = webDriver.findElement(By.tagName("input1"));
-       // inputField.sendKeys("Котики");
+       // inputField.sendKeys("РљРѕС‚РёРєРё");
 
        // inputField.sendKeys(Keys.ENTER);
 
         String header = webDriver.getTitle();
-        Assert.assertEquals(header, "Котики - Поиск в Google");
+        Assert.assertEquals(header, "РљРѕС‚РёРєРё - РџРѕРёСЃРє РІ Google");
 
         List<WebElement> listElements = webDriver.findElements(By.xpath("//h3"));
         Assert.assertTrue(listElements.size()==10);
