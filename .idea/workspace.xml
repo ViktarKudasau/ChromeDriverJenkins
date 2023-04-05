@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add FirstTest_Copy_Chupin" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Encoding to UTF-8">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Aviasales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +35,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/HP/ChromDriver"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/ChromDriver&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.FirstSeleniumTest">
+}</component>
+  <component name="RunManager" selected="TestNG.FirstTest_Copy_Chupin">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +78,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FirstTest_Copy_Chupin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest_Copy_Chupin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstTest_Copy_Chupin.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstTest_Copy_Chupin" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FirstTest_Copy_Chupin" />
+        <item itemvalue="TestNG.FirstTest_Copy_Chupin.firstTest" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
         <item itemvalue="TestNG.FirstSeleniumTest.firstTest" />
       </list>
@@ -95,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680205319456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Encoding to UTF-8">
+      <created>1680205761590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680205761590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add FirstTest_Copy_Chupin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add FirstTest_Copy_Chupin" />
+    <MESSAGE value="Encoding to UTF-8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encoding to UTF-8" />
   </component>
 </project>
