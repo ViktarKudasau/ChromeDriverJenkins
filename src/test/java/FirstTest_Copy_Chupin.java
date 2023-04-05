@@ -26,7 +26,7 @@ public class FirstTest_Copy_Chupin {
     @Test
     public void firstTest(){
         webDriver.get("https://google.com");
-        WebDriverWait wait = new WebDriverWait(webDriver, 180);
+        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
         WebElement inputField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("input")));
 
         // WebElement inputField = webDriver.findElement(By.tagName("input1"));
