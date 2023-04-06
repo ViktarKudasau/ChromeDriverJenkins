@@ -4,6 +4,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -17,55 +19,39 @@ public class Aviasales {
 
     @BeforeTest
     public void beforeTest(){
-        // String pathToDriver = "D:/Программы/chromedriver_win32.chromedriver.exe";
-        // System.setProperty("webdriver.chrome.driver", pathToDriver);
+
         WebDriverManager.chromedriver().setup();;
         webDriver = new ChromeDriver();
-        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(180));
     }
 
     @Test(invocationCount = 1)
     public void  firstTest(){
+
+        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
         webDriver.get("https://www.aviasales.by/");
-        WebElement inputField = webDriver.findElement(By.name("q"));
-        inputField.sendKeys("Котики");
-        //*[@id="origin"]
-        //*[@id="destination"]
-        
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        WebElement inputField_From = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath
+                ("//input[@id='origin']")));
+        inputField_From.sendKeys("Минск");
 
-        inputField.sendKeys(Keys.ENTER);
+        WebElement inputField_Where = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath
+                ("//input[@id='destination']")));
+        inputField_Where.sendKeys("Мальта");
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        WebElement Button_Find = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath
+                ("//button[@data-test-id='form-submit']")));
+        Button_Find.click();
 
-        String header = webDriver.getTitle();
-        Assert.assertEquals(header, "Котики - Поиск в Google");
+        WebElement Search_Result = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath
+                ("//div[@data-test-id='card-text']/p")));
 
-        List<WebElement> listElements = webDriver.findElements(By.xpath("//h3"));
-        for (WebElement el: listElements) {
-            System.out.println(el.getText());
-        }
-        Assert.assertFalse(listElements.size()==20);
-
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        System.out.println(Search_Result.getText());
+        Assert.assertEquals(Search_Result.getText(), "Нет прямых рейсов");
 
     }
     @AfterTest
     public void afterTest(){
         webDriver.quit();
     }
-
 }
