@@ -4,6 +4,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -41,13 +42,19 @@ public class Aviasales {
 
         WebElement Button_Find = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath
                 ("//button[@data-test-id='form-submit']")));
-        Button_Find.click();
+  //      Button_Find.click();
+
+        Actions actions = new Actions(webDriver);
+        actions.doubleClick(Button_Find).build().perform();
 
         WebElement Search_Result = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath
                 ("//div[@data-test-id='card-text']/p")));
 
         System.out.println(Search_Result.getText());
         Assert.assertEquals(Search_Result.getText(), "Нет прямых рейсов");
+
+
+
     }
     @AfterTest
     public void afterTest(){

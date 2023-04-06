@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Aviasales test with variables - Version 2.0" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Aviasales test with variables 'By' - Version 2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aviasales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +41,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/ChromDriver&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Aviasales_with_variables">
+  <component name="RunManager" selected="TestNG.Aviasales">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Aviasales_with_variables" />
         <item itemvalue="TestNG.Aviasales" />
+        <item itemvalue="TestNG.Aviasales_with_variables" />
         <item itemvalue="TestNG.AviaSalesTest" />
         <item itemvalue="TestNG.Stackoverflow.firstTest" />
         <item itemvalue="TestNG.Stackoverflow" />
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680771972813</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add Aviasales test with variables 'By' - Version 2.0">
+      <created>1680772984321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680772984321</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +220,7 @@
     <MESSAGE value="Add Stackoverflow Class" />
     <MESSAGE value="Add Aviasales Class - Version 1.0" />
     <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Aviasales test with variables - Version 2.0" />
+    <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Aviasales test with variables 'By' - Version 2.0" />
   </component>
 </project>

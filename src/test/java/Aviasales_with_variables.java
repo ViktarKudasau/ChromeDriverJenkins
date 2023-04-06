@@ -2,6 +2,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -41,6 +42,7 @@ public class Aviasales_with_variables {
 
         System.out.println(webDriver.findElement(Result).getText());
         Assert.assertEquals(webDriver.findElement(Result).getText(), "Нет прямых рейсов");
+
     }
     @AfterTest
     public void afterTest(){
