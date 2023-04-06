@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add WebDriverWait to the FirstTest_Copy_Chupin.java">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stackoverflow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/ChromDriver&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.FirstTest_Copy_Chupin">
+  <component name="RunManager" selected="TestNG.Stackoverflow.firstTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -57,18 +57,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstSeleniumTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -98,12 +86,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stackoverflow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Stackoverflow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stackoverflow.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Stackoverflow" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Stackoverflow.firstTest" />
+        <item itemvalue="TestNG.Stackoverflow" />
         <item itemvalue="TestNG.FirstTest_Copy_Chupin" />
         <item itemvalue="TestNG.FirstTest_Copy_Chupin.firstTest" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
-        <item itemvalue="TestNG.FirstSeleniumTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680675451658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update version of seleniumhq (WebDriverWait) to the pom.xml">
+      <created>1680675788649</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680675788650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,6 +174,7 @@
     <MESSAGE value="Add FirstTest_Copy_Chupin" />
     <MESSAGE value="Encoding to UTF-8" />
     <MESSAGE value="Add WebDriverWait to the FirstTest_Copy_Chupin.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add WebDriverWait to the FirstTest_Copy_Chupin.java" />
+    <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
   </component>
 </project>
