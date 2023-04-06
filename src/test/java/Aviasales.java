@@ -1,8 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -47,13 +44,15 @@ public class Aviasales {
         Actions actions = new Actions(webDriver);
         actions.doubleClick(Button_Find).build().perform();
 
+ /*       Alert alert = webDriver.switchTo().alert();
+          alert.getText();
+  */
+
         WebElement Search_Result = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath
                 ("//div[@data-test-id='card-text']/p")));
 
         System.out.println(Search_Result.getText());
         Assert.assertEquals(Search_Result.getText(), "Нет прямых рейсов");
-
-
 
     }
     @AfterTest
