@@ -48,7 +48,6 @@ public class Aviasales {
 
         System.out.println(Search_Result.getText());
         Assert.assertEquals(Search_Result.getText(), "Нет прямых рейсов");
-
     }
     @AfterTest
     public void afterTest(){

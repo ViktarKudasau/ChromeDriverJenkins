@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Aviasales Class - Version 1.0">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Aviasales test with variables - Version 2.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680770589471</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Aviasales test with variables - Version 2.0">
+      <created>1680771972813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680771972813</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +208,7 @@
     <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
     <MESSAGE value="Add Stackoverflow Class" />
     <MESSAGE value="Add Aviasales Class - Version 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Aviasales Class - Version 1.0" />
+    <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Aviasales test with variables - Version 2.0" />
   </component>
 </project>

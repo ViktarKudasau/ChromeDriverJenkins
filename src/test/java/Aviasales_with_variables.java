@@ -41,7 +41,6 @@ public class Aviasales_with_variables {
 
         System.out.println(webDriver.findElement(Result).getText());
         Assert.assertEquals(webDriver.findElement(Result).getText(), "Нет прямых рейсов");
-
     }
     @AfterTest
     public void afterTest(){
