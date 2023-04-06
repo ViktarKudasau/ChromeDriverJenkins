@@ -34,7 +34,6 @@ public class Stackoverflow {
                 ("//*[@name='q']")));
 
         inputField.sendKeys("Expected con");
-
         inputField.sendKeys(Keys.ENTER);
 
         String header = webDriver.getTitle();
