@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stackoverflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Stackoverflow Class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680675788650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Stackoverflow Class">
+      <created>1680763569122</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680763569122</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +179,7 @@
     <MESSAGE value="Encoding to UTF-8" />
     <MESSAGE value="Add WebDriverWait to the FirstTest_Copy_Chupin.java" />
     <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
+    <MESSAGE value="Add Stackoverflow Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Stackoverflow Class" />
   </component>
 </project>
