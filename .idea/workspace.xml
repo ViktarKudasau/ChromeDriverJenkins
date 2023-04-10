@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add switchTo to the Frame_switchTo class">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add getWindowHandles Frame_switchTo class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" afterDir="false" />
     </list>
@@ -223,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681119622106</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add getWindowHandles Frame_switchTo class">
+      <created>1681122141776</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681122141776</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +256,7 @@
     <MESSAGE value="Add Actions to the Aviasales class" />
     <MESSAGE value="Add Alert to the Aviasales class" />
     <MESSAGE value="Add switchTo to the Frame_switchTo class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add switchTo to the Frame_switchTo class" />
+    <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getWindowHandles Frame_switchTo class" />
   </component>
 </project>

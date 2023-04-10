@@ -45,8 +45,11 @@ public class Frame_switchTo {
 
         Set<String> wh = webDriver.getWindowHandles();
 
+  //      webDriver.switchTo().window(webDriver.getWindowHandle());
+
         for (String wff: wh) {
             System.out.println(wff);
+            webDriver.switchTo().window(wff);
         }
 
 
