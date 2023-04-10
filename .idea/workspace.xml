@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add DucksTestIncorrectLogin">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add verifyResultText">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DucksTestCorrectLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CorrectLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DucksTestIncorrectLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.IncorrectLoginTest">
+  <component name="RunManager" selected="TestNG.Aviasales_with_variables.firstTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -69,6 +67,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Aviasales_with_variables" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aviasales_with_variables.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Aviasales_with_variables" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -109,24 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RubberDucks" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RubberDucks" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Aviasales_with_variables.firstTest" />
         <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.Aviasales_with_variables" />
         <item itemvalue="TestNG.Frame_switchTo" />
         <item itemvalue="TestNG.Frame_switchTo.firstTest" />
-        <item itemvalue="TestNG.RubberDucks" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681130670180</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Add verifyResultText">
+      <created>1681134279825</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681134279825</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +294,8 @@
     <MESSAGE value="Add switchTo().window()" />
     <MESSAGE value="Add PageObject class" />
     <MESSAGE value="Add DucksTestIncorrectLogin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DucksTestIncorrectLogin" />
+    <MESSAGE value="Add verifyResultText" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add verifyResultText" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

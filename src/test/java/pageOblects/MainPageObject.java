@@ -3,6 +3,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
 import java.time.Duration;
 
 public class MainPageObject {
@@ -12,10 +14,11 @@ public class MainPageObject {
     public By Result = By.xpath("//div[@data-test-id='card-text']/p");
 
     WebDriver webDriver;
-    WebDriver wait;
+    WebDriverWait wait;
 
     public MainPageObject (WebDriver driver) {
         webDriver = driver;
+        wait = new WebDriverWait(webDriver, Duration.ofSeconds(300));
     }
     public void fillFromField (){
         webDriver.findElement(From).sendKeys("Минск");
@@ -30,6 +33,11 @@ public class MainPageObject {
         fillFromField();
         fillWhereField();
         clickSearchButton();
+    }
+    public void verifyResultText (){
+        wait.until(ExpectedConditions.presenceOfElementLocated(Result));
+        System.out.println(webDriver.findElement(Result).getText());
+        Assert.assertEquals(webDriver.findElement(Result).getText(), "Нет прямых рейсов");
     }
 
 }

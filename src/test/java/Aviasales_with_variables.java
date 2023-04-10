@@ -26,15 +26,9 @@ public class Aviasales_with_variables {
 
     @Test(invocationCount = 1)
     public void  firstTest(){
-
-        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(300));
         webDriver.get("https://www.aviasales.by/");
         mainPageObject.fillFormsAndSend();
-        wait.until(ExpectedConditions.presenceOfElementLocated(mainPageObject.Result));
-
-        System.out.println(webDriver.findElement(mainPageObject.Result).getText());
-        Assert.assertEquals(webDriver.findElement(mainPageObject.Result).getText(), "Нет прямых рейсов");
-
+        mainPageObject.verifyResultText();
     }
     @AfterTest
     public void afterTest(){
