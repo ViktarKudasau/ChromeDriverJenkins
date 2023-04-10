@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Actions to the Aviasales class">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Alert to the Aviasales class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RubberDucks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Aviasales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,15 +35,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/ChromDriver&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Git/Java45/ChromDriver"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Aviasales">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Frame_switchTo">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -48,17 +56,6 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AviaSalesTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AviaSalesTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,10 +82,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stackoverflow" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Stackoverflow" />
+      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -96,12 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stackoverflow.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Frame_switchTo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Stackoverflow" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Frame_switchTo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucks" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -110,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Frame_switchTo" />
+        <item itemvalue="TestNG.RubberDucks" />
+        <item itemvalue="TestNG.FirstSeleniumTest" />
         <item itemvalue="TestNG.Aviasales" />
         <item itemvalue="TestNG.Aviasales_with_variables" />
-        <item itemvalue="TestNG.AviaSalesTest" />
-        <item itemvalue="TestNG.Stackoverflow.firstTest" />
-        <item itemvalue="TestNG.Stackoverflow" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680780697869</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add Alert to the Aviasales class">
+      <created>1680782093898</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680782093900</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +242,7 @@
     <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
     <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
     <MESSAGE value="Add Actions to the Aviasales class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Actions to the Aviasales class" />
+    <MESSAGE value="Add Alert to the Aviasales class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Alert to the Aviasales class" />
   </component>
 </project>

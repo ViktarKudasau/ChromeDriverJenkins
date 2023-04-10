@@ -26,9 +26,8 @@ public class FirstSeleniumTest {
 
     @Test(invocationCount = 1)
     public void  firstTest(){
-        webDriver.get("https://www.google.com/");
-        WebElement inputField = webDriver.findElement(By.name("q"));
-        inputField.sendKeys("Котики");
+        webDriver.get("https://litecart.stqa.ru/en/rubber-ducks-c-1/?category_id=1&page=1&sort=name");
+
 
         try {
             Thread.sleep(5000);
@@ -36,22 +35,13 @@ public class FirstSeleniumTest {
             throw new RuntimeException(e);
         }
 
-        inputField.sendKeys(Keys.ENTER);
 
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
 
-        String header = webDriver.getTitle();
-        Assert.assertEquals(header, "Котики - Поиск в Google");
+        List <WebElement> listElements = webDriver.findElements(By.xpath("//li[@class='product column shadow hover-light']"));
 
-        List <WebElement> listElements = webDriver.findElements(By.xpath("//h3"));
-        for (WebElement el: listElements) {
-            System.out.println(el.getText());
-        }
-        Assert.assertFalse(listElements.size()==20);
+        int result = listElements.size();
+        System.out.println(result);
+        Assert.assertTrue(listElements.size()==result, "size =" + result);
 
         try {
             Thread.sleep(5000);
