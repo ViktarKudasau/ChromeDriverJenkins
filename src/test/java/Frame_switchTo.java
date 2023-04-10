@@ -30,7 +30,7 @@ public class Frame_switchTo {
 
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
 
-  /*      By From = By.xpath("//input[@id='origin']");
+  /*    By From = By.xpath("//input[@id='origin']");
         By Where = By.xpath("//input[@id='destination']");
         By Find = By.xpath("//button[@data-test-id='form-submit']");
         By Result = By.xpath("//div[@data-test-id='card-text']/p");
@@ -53,7 +53,7 @@ public class Frame_switchTo {
         }
 
 
-  /*      webDriver.findElement(From).sendKeys("Минск");
+  /*    webDriver.findElement(From).sendKeys("Минск");
         webDriver.findElement(Where).sendKeys("Мальта");
         webDriver.findElement(Find).click();
 

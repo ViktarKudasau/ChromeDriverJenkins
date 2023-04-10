@@ -9,39 +9,31 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
+import pageOblects.MainPageObject;
 import java.time.Duration;
 
 public class Aviasales_with_variables {
     WebDriver webDriver;
+    MainPageObject mainPageObject;
 
     @BeforeTest
     public void beforeTest(){
-
         WebDriverManager.chromedriver().setup();;
         webDriver = new ChromeDriver();
-        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(180));
+        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
+        mainPageObject = new MainPageObject(webDriver);
     }
 
     @Test(invocationCount = 1)
     public void  firstTest(){
 
-        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
-
-        By From = By.xpath("//input[@id='origin']");
-        By Where = By.xpath("//input[@id='destination']");
-        By Find = By.xpath("//button[@data-test-id='form-submit']");
-        By Result = By.xpath("//div[@data-test-id='card-text']/p");
-
+        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(300));
         webDriver.get("https://www.aviasales.by/");
-        webDriver.findElement(From).sendKeys("Минск");
-        webDriver.findElement(Where).sendKeys("Мальта");
-        webDriver.findElement(Find).click();
+        mainPageObject.fillFormsAndSend();
+        wait.until(ExpectedConditions.presenceOfElementLocated(mainPageObject.Result));
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(Result));
-
-        System.out.println(webDriver.findElement(Result).getText());
-        Assert.assertEquals(webDriver.findElement(Result).getText(), "Нет прямых рейсов");
+        System.out.println(webDriver.findElement(mainPageObject.Result).getText());
+        Assert.assertEquals(webDriver.findElement(mainPageObject.Result).getText(), "Нет прямых рейсов");
 
     }
     @AfterTest
