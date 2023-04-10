@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add PageObject class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DucksTestCorrectLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DucksTestIncorrectLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add DucksTestIncorrectLogin">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DucksTestCorrectLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CorrectLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DucksTestIncorrectLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Git/Java45/ChromDriver"
   }
 }]]></component>
@@ -54,7 +52,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DucksTestIncorrectLogin">
+  <component name="RunManager" selected="TestNG.IncorrectLoginTest">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,17 +68,6 @@
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Aviasales_with_variables" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DucksTestIncorrectLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DucksTestIncorrectLogin" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -111,6 +98,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IncorrectLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IncorrectLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RubberDucks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,7 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DucksTestIncorrectLogin" />
+        <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.Aviasales_with_variables" />
         <item itemvalue="TestNG.Frame_switchTo" />
         <item itemvalue="TestNG.Frame_switchTo.firstTest" />
@@ -253,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681127814475</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add DucksTestIncorrectLogin">
+      <created>1681130670180</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681130670180</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +287,18 @@
     <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
     <MESSAGE value="Add switchTo().window()" />
     <MESSAGE value="Add PageObject class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add PageObject class" />
+    <MESSAGE value="Add DucksTestIncorrectLogin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DucksTestIncorrectLogin" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MainPageDucks.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
