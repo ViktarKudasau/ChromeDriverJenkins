@@ -8,7 +8,7 @@ import java.time.Duration;
 public class BasePage {
     WebDriver webDriver;
     WebDriverWait wait;
-    public BasePage (WebDriver driver) {
+    public BasePage(WebDriver driver) {
         webDriver = driver;
         wait = new WebDriverWait(webDriver, Duration.ofSeconds(300));
     }

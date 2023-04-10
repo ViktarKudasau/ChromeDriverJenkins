@@ -5,9 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add BaseTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CorrectLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CorrectLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/IncorrectLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IncorrectLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainPageDucks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SecondSeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stackoverflow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThirdSeleniumTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +43,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Nk1ARm9n8iT1stWe2xMcO7uPAk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,6 +62,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Git/Java45/ChromDriver"
   }
 }]]></component>
@@ -50,14 +74,14 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
+  <component name="RunManager" selected="TestNG.CorrectLoginTest">
+    <configuration name="CorrectLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CorrectLoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,18 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frame_switchTo.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Frame_switchTo" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IncorrectLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -121,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstSeleniumTest.firstTest" />
+        <item itemvalue="TestNG.CorrectLoginTest" />
         <item itemvalue="TestNG.IncorrectLoginTest" />
+        <item itemvalue="TestNG.FirstSeleniumTest.firstTest" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
         <item itemvalue="TestNG.Frame_switchTo" />
-        <item itemvalue="TestNG.Frame_switchTo.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +329,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/MainPageDucks.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/MainPageDucks_Copy.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

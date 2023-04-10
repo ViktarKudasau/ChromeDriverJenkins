@@ -3,20 +3,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
-import pageOblects.MainPageObject;
+import pageOblects.MainPage;
 
 import java.time.Duration;
 
 public class BaseTest {
     WebDriver webDriver;
-    MainPageObject mainPageObject;
+    MainPage mainPageDucks;
 
     @BeforeTest
     public void beforeTest(){
         WebDriverManager.chromedriver().setup();;
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
-        mainPageObject = new MainPageObject(webDriver);
+        mainPageDucks = new MainPage(webDriver);
     }
 
     @AfterTest
