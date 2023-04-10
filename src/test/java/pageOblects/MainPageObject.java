@@ -26,7 +26,6 @@ public class MainPageObject {
     public void clickSearchButton(){
         webDriver.findElement(Button_Find).click();
     }
-
     public void fillFormsAndSend (){
         fillFromField();
         fillWhereField();
