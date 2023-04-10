@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Alert to the Aviasales class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RubberDucks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add switchTo to the Frame_switchTo class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Frame_switchTo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,17 +68,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aviasales_with_variables" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Aviasales_with_variables" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FirstSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,6 +90,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Frame_switchTo.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Frame_switchTo" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RubberDucks" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Frame_switchTo" />
+        <item itemvalue="TestNG.Frame_switchTo.firstTest" />
         <item itemvalue="TestNG.RubberDucks" />
         <item itemvalue="TestNG.FirstSeleniumTest" />
         <item itemvalue="TestNG.Aviasales" />
-        <item itemvalue="TestNG.Aviasales_with_variables" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680782093900</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add switchTo to the Frame_switchTo class">
+      <created>1681119622105</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681119622106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +248,7 @@
     <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
     <MESSAGE value="Add Actions to the Aviasales class" />
     <MESSAGE value="Add Alert to the Aviasales class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Alert to the Aviasales class" />
+    <MESSAGE value="Add switchTo to the Frame_switchTo class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add switchTo to the Frame_switchTo class" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,6 +12,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
+import java.util.Set;
 
 public class Frame_switchTo {
     WebDriver webDriver;
@@ -28,13 +30,27 @@ public class Frame_switchTo {
 
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
 
-        By From = By.xpath("//input[@id='origin']");
+  /*      By From = By.xpath("//input[@id='origin']");
         By Where = By.xpath("//input[@id='destination']");
         By Find = By.xpath("//button[@data-test-id='form-submit']");
         By Result = By.xpath("//div[@data-test-id='card-text']/p");
+   */
 
-        webDriver.get("https://www.aviasales.by/");
-        webDriver.findElement(From).sendKeys("Минск");
+        By name = By.xpath("//div[text()='Отели']");
+        webDriver.get("https://www.booking.com/");
+        // WebElement Element = webDriver.findElement(name);
+
+        JavascriptExecutor js = (JavascriptExecutor) webDriver;
+        js.executeScript("window.scrollTo(0, document.body.scrollHeight-1500)");
+
+        Set<String> wh = webDriver.getWindowHandles();
+
+        for (String wff: wh) {
+            System.out.println(wff);
+        }
+
+
+  /*      webDriver.findElement(From).sendKeys("Минск");
         webDriver.findElement(Where).sendKeys("Мальта");
         webDriver.findElement(Find).click();
 
@@ -46,6 +62,8 @@ public class Frame_switchTo {
 
         System.out.println(webDriver.findElement(Result).getText());
         Assert.assertEquals(webDriver.findElement(Result).getText(), "Нет прямых рейсов");
+
+   */
 
     }
     @AfterTest
