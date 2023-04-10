@@ -7,19 +7,16 @@ import org.testng.Assert;
 
 import java.time.Duration;
 
-public class MainPageObject {
+public class MainPageObject extends BasePage{
     By From = By.xpath("//input[@id='origin']");
     By Where = By.xpath("//input[@id='destination']");
     By Button_Find = By.xpath("//button[@data-test-id='form-submit']");
     public By Result = By.xpath("//div[@data-test-id='card-text']/p");
 
-    WebDriver webDriver;
-    WebDriverWait wait;
-
-    public MainPageObject (WebDriver driver) {
-        webDriver = driver;
-        wait = new WebDriverWait(webDriver, Duration.ofSeconds(300));
+    public MainPageObject(WebDriver driver) {
+        super(driver);
     }
+
     public void fillFromField (){
         webDriver.findElement(From).sendKeys("Минск");
     }

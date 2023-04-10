@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update Aviasales: add verifyResultText method to the MainPageObject">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SecondSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ThirdSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add BaseTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Aviasales_with_variables.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681135162816</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add BaseTest">
+      <created>1681136556471</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681136556471</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,7 +310,8 @@
     <MESSAGE value="Add DucksTestIncorrectLogin" />
     <MESSAGE value="Add verifyResultText" />
     <MESSAGE value="Update Aviasales: add verifyResultText method to the MainPageObject" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Aviasales: add verifyResultText method to the MainPageObject" />
+    <MESSAGE value="Add BaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add BaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
