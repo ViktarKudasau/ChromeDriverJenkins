@@ -11,9 +11,9 @@
     <file url="file://$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/FirstTest_Copy_Chupin.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/Frame_switchTo.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/IncorrectLoginTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/LoginTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/MainPageDucks_Copy.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/test/java/RubberDucks.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/RubberDuckTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/pageOblects/MainPageObject.java" charset="UTF-8" />

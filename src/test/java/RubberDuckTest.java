@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -14,7 +13,7 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.List;
 
-public class RubberDucks {
+public class RubberDuckTest {
     WebDriver webDriver;
 
     @BeforeTest
@@ -30,7 +29,6 @@ public class RubberDucks {
 
         WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(180));
         webDriver.get("https://litecart.stqa.ru/en/");
-
 
         WebElement Button_Rubber_Ducks = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath
                 ("//a[@href='https://litecart.stqa.ru/en/rubber-ducks-c-1/']")));
