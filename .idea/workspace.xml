@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="LoginTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add quantityDucksTest to the RubberDuckTest">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDuckTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +59,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RubberDuckTest">
+  <component name="RunManager" selected="TestNG.RubberDucksTest.quantityDucksTest">
     <configuration name="CorrectLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CorrectLoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstSeleniumTest.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="firstTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -106,11 +94,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RubberDuckTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest.quantityDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="METHOD_NAME" value="quantityDucksTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RubberDuckTest" />
+        <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
+        <item itemvalue="TestNG.RubberDucksTest" />
         <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
         <item itemvalue="TestNG.CorrectLoginTest" />
-        <item itemvalue="TestNG.FirstSeleniumTest.firstTest" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681195252237</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add quantityDucksTest to the RubberDuckTest">
+      <created>1681202473640</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681202473640</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +339,8 @@
     <MESSAGE value="Add BaseTest" />
     <MESSAGE value="Add Ducks" />
     <MESSAGE value="LoginTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="LoginTest" />
+    <MESSAGE value="Add quantityDucksTest to the RubberDuckTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add quantityDucksTest to the RubberDuckTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
