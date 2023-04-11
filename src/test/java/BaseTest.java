@@ -31,6 +31,7 @@ public class BaseTest {
 
     @AfterTest
     public void afterTest() {
+        System.out.println("Be Happy :) ");
         webDriver.quit();
     }
 }
