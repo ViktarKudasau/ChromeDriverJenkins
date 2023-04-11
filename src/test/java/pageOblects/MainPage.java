@@ -63,6 +63,4 @@ public class MainPage extends BasePage {
         wait.until(ExpectedConditions.presenceOfElementLocated(Success_Message));
         System.out.println(webDriver.findElement(Success_Message).getText());
     }
-
-
 }
