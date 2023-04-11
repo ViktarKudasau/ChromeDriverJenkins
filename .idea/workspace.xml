@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add quantityDucksTest to the RubberDuckTest">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,18 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RubberDucksTest.quantityDucksTest">
-    <configuration name="CorrectLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CorrectLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.RubberDucksTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,13 +105,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RubberDucksTest.sortByDateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChromDriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="METHOD_NAME" value="sortByDateTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
         <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
+        <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
         <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
-        <item itemvalue="TestNG.CorrectLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681202473640</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage">
+      <created>1681203412263</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681203412263</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +347,8 @@
     <MESSAGE value="Add Ducks" />
     <MESSAGE value="LoginTest" />
     <MESSAGE value="Add quantityDucksTest to the RubberDuckTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add quantityDucksTest to the RubberDuckTest" />
+    <MESSAGE value="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,6 +357,15 @@
           <url>file://$PROJECT_DIR$/src/test/java/MainPageDucks_Copy.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>
+          <line>13</line>
+          <properties class="RubberDucksTest" method="sortByDateTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
