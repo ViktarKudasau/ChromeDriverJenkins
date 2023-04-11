@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add sortByDateTest to the RubberDucksTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,9 +123,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
         <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
-        <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
       </list>
     </recent_temporary>
@@ -311,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681203412263</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add sortByDateTest to the RubberDucksTest">
+      <created>1681206844286</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681206844286</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +358,8 @@
     <MESSAGE value="LoginTest" />
     <MESSAGE value="Add quantityDucksTest to the RubberDuckTest" />
     <MESSAGE value="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update xPath locator of Button_Rubber_Ducks to the RubberDucksPage" />
+    <MESSAGE value="Add sortByDateTest to the RubberDucksTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sortByDateTest to the RubberDucksTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

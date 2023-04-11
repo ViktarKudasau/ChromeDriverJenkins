@@ -10,10 +10,13 @@ import java.util.List;
 public class RubberDucksPage extends BasePage {
     private final By Button_Rubber_Ducks = By.xpath("//a[text()='Rubber Ducks']");
     private final By Button_Date = By.xpath("//a[text()='Date']");
+    private final By Button_Name = By.xpath("//a[text()='Name']");
     private final By Ducks = By.xpath("//li[@class='product column shadow hover-light']");
     public int expected_Quantity_Ducks = 5;
-    public By price_first_duck_ByDate = By.xpath("//a[@title='Yellow Duck']/div//strong");
+    public By price_first_duck_By_Date = By.xpath("//a[@title='Yellow Duck']/div//strong");
+    public By price_first_duck_By_Name = By.xpath("//a[@title='Blue Duck']/div/span");
     public String Expected_price_by_Date = "$18";
+    public String Expected_price_by_Name = "$20";
 
     public RubberDucksPage(WebDriver driver) {
         super(driver);
@@ -24,6 +27,9 @@ public class RubberDucksPage extends BasePage {
     }
     public void clickButtonDate() {
         webDriver.findElement(Button_Date).click();
+    }
+    public void clickButtonName(){
+        webDriver.findElement(Button_Name).click();
     }
 
     public int ListSize() {
@@ -37,6 +43,9 @@ public class RubberDucksPage extends BasePage {
     public void verifyLoadButtonDate() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Button_Date));
     }
+    public void verifyLoadButtonName(){
+        wait.until(ExpectedConditions.presenceOfElementLocated(Button_Name));
+    }
     public void verifyLoadDucks() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Ducks));
     }
@@ -46,10 +55,14 @@ public class RubberDucksPage extends BasePage {
         clickButtonRubberDucks();
         verifyLoadDucks();
     }
-
     public void clickDate(){
         verifyLoadButtonDate();
         clickButtonDate();
+        verifyLoadDucks();
+    }
+    public void clickName(){
+        verifyLoadButtonName();
+        clickButtonName();
         verifyLoadDucks();
     }
 }

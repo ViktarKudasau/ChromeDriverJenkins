@@ -14,9 +14,19 @@ public class RubberDucksTest extends BaseTest {
     public void sortByDateTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDate();
-        Assert.assertEquals(webDriver.findElement(rubberDucksPage.price_first_duck_ByDate).getText(),
+        Assert.assertEquals(webDriver.findElement(rubberDucksPage.price_first_duck_By_Date).getText(),
                 rubberDucksPage.Expected_price_by_Date);
-        System.out.println("Price first duck by sort of date = " +
-                webDriver.findElement(rubberDucksPage.price_first_duck_ByDate).getText());
+        System.out.println("Price first duck by sort of Date = " +
+                webDriver.findElement(rubberDucksPage.price_first_duck_By_Date).getText());
+    }
+
+    @Test
+    public void sortByNameTest() {
+        rubberDucksPage.clickRubberDucks();
+        rubberDucksPage.clickName();
+        Assert.assertEquals(webDriver.findElement(rubberDucksPage.price_first_duck_By_Name).getText(),
+                rubberDucksPage.Expected_price_by_Name);
+        System.out.println("Price first duck by sort of Name = " +
+                webDriver.findElement(rubberDucksPage.price_first_duck_By_Name).getText());
     }
 }

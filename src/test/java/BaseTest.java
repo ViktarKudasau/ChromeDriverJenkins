@@ -10,10 +10,10 @@ import pageOblects.RubberDucksPage;
 import java.time.Duration;
 
 public class BaseTest {
+    private final String base_URL = "https://litecart.stqa.ru/en/";
     WebDriver webDriver;
     MainPage mainPage;
     RubberDucksPage rubberDucksPage;
-    private final String base_URL = "https://litecart.stqa.ru/en/";
 
     @BeforeTest
     public void beforeTest() {
