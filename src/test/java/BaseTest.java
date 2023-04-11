@@ -5,12 +5,14 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import pageOblects.MainPage;
+import pageOblects.RubberDucksPage;
 
 import java.time.Duration;
 
 public class BaseTest {
     WebDriver webDriver;
     MainPage mainPage;
+    RubberDucksPage rubberDucksPage;
     private final String base_URL = "https://litecart.stqa.ru/en/";
 
     @BeforeTest
@@ -19,6 +21,7 @@ public class BaseTest {
         webDriver = new ChromeDriver();
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
         mainPage = new MainPage(webDriver);
+        rubberDucksPage = new RubberDucksPage(webDriver);
     }
 
     @BeforeMethod
