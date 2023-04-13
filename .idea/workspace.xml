@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Delete escape from the BasePage and from the BaseTest">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add &quot;Be Happy&quot; to the BaseTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RubberDucksTest">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,8 +120,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest" />
-        <item itemvalue="TestNG.IncorrectLoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
         <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
@@ -338,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681208923959</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add &quot;Be Happy&quot; to the BaseTest">
+      <created>1681209926383</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681209926383</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,7 +362,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Encoding to UTF-8" />
     <MESSAGE value="Add WebDriverWait to the FirstTest_Copy_Chupin.java" />
     <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
     <MESSAGE value="Add Stackoverflow Class" />
@@ -378,7 +386,8 @@
     <MESSAGE value="Add sortByNameTest to the RubberDucksTest" />
     <MESSAGE value="Delete escape to the RubberDucksPage" />
     <MESSAGE value="Delete escape from the BasePage and from the BaseTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete escape from the BasePage and from the BaseTest" />
+    <MESSAGE value="Add &quot;Be Happy&quot; to the BaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Be Happy&quot; to the BaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,24 +6,22 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MainPage extends BasePage {
 
-    private final By Email = By.xpath("//input[@name='email']");
-    private final By Password = By.xpath("//input[@name='password']");
-    private final By Button_Login = By.xpath("//button[@value='Login']");
-    private final String Incorrect_Email = "wrgwg@wf.com";
-    private final String Correct_email = "viktar.kudasau@gmail.com";
-    private final String Incorrect_Password = "123";
-    private final String Correct_Password = "123456789";
-    public By Error_Message = By.xpath("//div[@class='notice errors']");
-    public String Expected_Error_Message = "Wrong password or the account is disabled, or does not exist";
-    public By Success_Message = By.xpath("//div[@class='notice success']");
-    public String Expected_Success_Message = "You are now logged in as Viktar Kudasau.";
+    String Correct_email = "viktar.kudasau@gmail.com";
+    String incorrect_Email = "xwq2@de.com";
+    String Correct_Password = "123456789";
+    String Incorrect_Password = "123";
+    private static final By Email = By.xpath("//input[@name='email']");
+    private static final By Password = By.xpath("//input[@name='password']");
+    private static final By Button_Login = By.xpath("//button[@value='Login']");
+    private static final By Error_Message = By.xpath("//div[@class='notice errors']");
+    private static final By Success_Message = By.xpath("//div[@class='notice success']");
 
     public MainPage(WebDriver driver) {
         super(driver);
     }
 
     public void fillIncorrectEmailField() {
-        webDriver.findElement(Email).sendKeys(Incorrect_Email);
+        webDriver.findElement(Email).sendKeys(incorrect_Email);
     }
 
     public void fillIncorrectPasswordField() {
@@ -39,28 +37,31 @@ public class MainPage extends BasePage {
     }
 
     public void clickButtonLogin() {
+        wait.until(ExpectedConditions.presenceOfElementLocated(Button_Login));
         webDriver.findElement(Button_Login).click();
     }
 
-    public void fillIncorrectValueFormsAndSend() {
+    public void fillIncorrectLoginAndSend() {
         fillIncorrectEmailField();
         fillIncorrectPasswordField();
         clickButtonLogin();
     }
 
-    public void fillCorrectValueFormsAndSend() {
+    public void fillCorrectLoginAndSend() {
         fillCorrectEmailField();
         fillCorrectPasswordField();
         clickButtonLogin();
     }
 
-    public void verifyErrorMessage() {
+    public String getErrorMessage() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Error_Message));
         System.out.println(webDriver.findElement(Error_Message).getText());
+        return webDriver.findElement(Error_Message).getText();
     }
 
-    public void verifySuccessMessage() {
+    public String getSuccessMessage() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Success_Message));
         System.out.println(webDriver.findElement(Success_Message).getText());
+        return webDriver.findElement(Success_Message).getText();
     }
 }
