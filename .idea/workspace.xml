@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update All Tests and Pages" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add options &quot;invocationCount and priority&quot; to the LoginTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -377,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681373884142</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add options &quot;invocationCount and priority&quot; to the LoginTest">
+      <created>1681374495137</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681374495137</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
     <MESSAGE value="Add Actions to the Aviasales class" />
     <MESSAGE value="Add Alert to the Aviasales class" />
     <MESSAGE value="Add switchTo to the Frame_switchTo class" />
@@ -417,7 +427,8 @@
     <MESSAGE value="Add Assertion message to the LoginTest" />
     <MESSAGE value="Add Assertion message to the RubberDucksTest" />
     <MESSAGE value="Update All Tests and Pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update All Tests and Pages" />
+    <MESSAGE value="Add options &quot;invocationCount and priority&quot; to the LoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add options &quot;invocationCount and priority&quot; to the LoginTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

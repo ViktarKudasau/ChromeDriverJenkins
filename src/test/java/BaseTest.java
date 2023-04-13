@@ -1,3 +1,4 @@
+import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +10,8 @@ import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
 
 import java.time.Duration;
+
+import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
     protected String base_URL = "https://litecart.stqa.ru/en/";
@@ -28,12 +31,13 @@ public class BaseTest {
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
+        WebDriverRunner.setWebDriver(webDriver);
     }
 
     @BeforeMethod
     public void beforeMethod() {
         webDriver.manage().deleteAllCookies();
-        webDriver.get(base_URL);
+        open(base_URL);
     }
 
     @AfterTest

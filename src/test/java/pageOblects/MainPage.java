@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import static com.codeborne.selenide.Selenide.$;
+
 public class MainPage extends BasePage {
 
     private final By Email = By.xpath("//input[@name='email']");
@@ -21,24 +23,24 @@ public class MainPage extends BasePage {
     }
 
     public void fillIncorrectEmailField() {
-        webDriver.findElement(Email).sendKeys(incorrect_Email);
+        $(Email).sendKeys(incorrect_Email);
     }
 
     public void fillIncorrectPasswordField() {
-        webDriver.findElement(Password).sendKeys(Incorrect_Password);
+        $(Password).sendKeys(Incorrect_Password);
     }
 
     public void fillCorrectEmailField() {
-        webDriver.findElement(Email).sendKeys(Correct_email);
+        $(Email).sendKeys(Correct_email);
     }
 
     public void fillCorrectPasswordField() {
-        webDriver.findElement(Password).sendKeys(Correct_Password);
+        $(Password).sendKeys(Correct_Password);
     }
 
     public void clickButtonLogin() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Button_Login));
-        webDriver.findElement(Button_Login).click();
+        $(Button_Login).click();
     }
 
     public void fillIncorrectLoginAndSend() {
@@ -55,11 +57,11 @@ public class MainPage extends BasePage {
 
     public String getErrorMessage() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Error_Message));
-        return webDriver.findElement(Error_Message).getText();
+        return $(Error_Message).getText();
     }
 
     public String getSuccessMessage() {
         wait.until(ExpectedConditions.presenceOfElementLocated(Success_Message));
-        return webDriver.findElement(Success_Message).getText();
+        return $(Success_Message).getText();
     }
 }
