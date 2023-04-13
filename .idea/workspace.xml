@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Assertion message to the RubberDucksTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update All Tests and Pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -373,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681373460273</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Update All Tests and Pages">
+      <created>1681373884141</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681373884142</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
     <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
     <MESSAGE value="Add Actions to the Aviasales class" />
     <MESSAGE value="Add Alert to the Aviasales class" />
@@ -413,7 +416,8 @@
     <MESSAGE value="Update BaseTest" />
     <MESSAGE value="Add Assertion message to the LoginTest" />
     <MESSAGE value="Add Assertion message to the RubberDucksTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Assertion message to the RubberDucksTest" />
+    <MESSAGE value="Update All Tests and Pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update All Tests and Pages" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,7 +6,7 @@ public class LoginTest extends BaseTest {
     String Expected_Success_Message = "You are now logged in as Viktar Kudasau.";
     String Expected_Error_Message = "Wrong password or the account is disabled, or does not exist";
 
-    @Test
+    @Test(invocationCount = 1, priority = 0)
     public void TestIncorrectLogin() {
         mainPage.fillIncorrectLoginAndSend();
         Assert.assertEquals(mainPage.getErrorMessage(), Expected_Error_Message,
