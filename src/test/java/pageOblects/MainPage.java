@@ -1,20 +1,19 @@
 package pageOblects;
 
+import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage extends BasePage {
 
-    private final By Email = By.xpath("//input[@name='email']");
-    private final By Password = By.xpath("//input[@name='password']");
-    private final By Button_Login = By.xpath("//button[@value='Login']");
-    private final By Error_Message = By.xpath("//div[@class='notice errors']");
-    private final By Success_Message = By.xpath("//div[@class='notice success']");
-    String Correct_email = "viktar.kudasau@gmail.com";
-    String incorrect_Email = "xwq2@de.com";
+    private static final By Email = By.xpath("//input[@name='email']");
+    private static final By Password = By.xpath("//input[@name='password']");
+    private static final By Button_Login = By.xpath("//button[@value='Login']");
+    private static final By Error_Message = By.xpath("//div[@class='notice errors']");
+    private static final By Success_Message = By.xpath("//div[@class='notice success']");
+    String Correct_Email = "viktar.kudasau@gmail.com";
+    String Incorrect_Email = "xwq2@de.com";
     String Correct_Password = "123456789";
     String Incorrect_Password = "123";
 
@@ -22,46 +21,23 @@ public class MainPage extends BasePage {
         super(driver);
     }
 
-    public void fillIncorrectEmailField() {
-        $(Email).sendKeys(incorrect_Email);
-    }
-
-    public void fillIncorrectPasswordField() {
-        $(Password).sendKeys(Incorrect_Password);
-    }
-
-    public void fillCorrectEmailField() {
-        $(Email).sendKeys(Correct_email);
-    }
-
-    public void fillCorrectPasswordField() {
-        $(Password).sendKeys(Correct_Password);
-    }
-
-    public void clickButtonLogin() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(Button_Login));
-        $(Button_Login).click();
-    }
-
     public void fillIncorrectLoginAndSend() {
-        fillIncorrectEmailField();
-        fillIncorrectPasswordField();
-        clickButtonLogin();
+        $(Email).shouldBe(Condition.exist).sendKeys(Incorrect_Email);
+        $(Password).shouldBe(Condition.exist).sendKeys(Incorrect_Password);
+        $(Button_Login).shouldBe(Condition.exist).click();
     }
 
     public void fillCorrectLoginAndSend() {
-        fillCorrectEmailField();
-        fillCorrectPasswordField();
-        clickButtonLogin();
+        $(Email).shouldBe(Condition.exist).sendKeys(Correct_Email);
+        $(Password).shouldBe(Condition.exist).sendKeys(Correct_Password);
+        $(Button_Login).shouldBe(Condition.exist).click();
     }
 
     public String getErrorMessage() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(Error_Message));
-        return $(Error_Message).getText();
+        return $(Error_Message).shouldBe(Condition.visible).getText();
     }
 
     public String getSuccessMessage() {
-        wait.until(ExpectedConditions.presenceOfElementLocated(Success_Message));
-        return $(Success_Message).getText();
+        return $(Success_Message).shouldBe(Condition.visible).getText();
     }
 }
