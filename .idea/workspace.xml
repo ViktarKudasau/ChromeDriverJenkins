@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update BaseTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Assertion message to the LoginTest">
       <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +56,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.RubberDucksTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -123,8 +117,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
         <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
@@ -364,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681369644041</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Add Assertion message to the LoginTest">
+      <created>1681372815177</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681372815179</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +380,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Stackoverflow Class" />
     <MESSAGE value="Add Aviasales Class - Version 1.0" />
     <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
     <MESSAGE value="Add Aviasales test with variables 'By' - Version 2.0" />
@@ -404,7 +404,8 @@
     <MESSAGE value="Add &quot;Be Happy&quot; to the BaseTest" />
     <MESSAGE value="Update LoginTest" />
     <MESSAGE value="Update BaseTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update BaseTest" />
+    <MESSAGE value="Add Assertion message to the LoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Assertion message to the LoginTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,6 +414,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/MainPageDucks_Copy.java</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>

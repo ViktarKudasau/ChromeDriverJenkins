@@ -10,27 +10,23 @@ public class RubberDucksTest extends BaseTest {
     @Test
     public void quantityDucksTest() {
         rubberDucksPage.clickRubberDucks();
-        Assert.assertEquals(rubberDucksPage.getQuantityDucks(), expected_Quantity_Ducks);
-        System.out.println("Quantity of Ducks = " + rubberDucksPage.getQuantityDucks());
+        Assert.assertEquals(rubberDucksPage.getQuantityDucks(), expected_Quantity_Ducks,
+                "Actual quantity ducks = " + rubberDucksPage.getQuantityDucks());
     }
 
     @Test
     public void sortByDateTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDate();
-        Assert.assertEquals(rubberDucksPage.getPriceByDate(),
-                Expected_price_by_Date);
-        System.out.println("Price first duck by sort of Date = " +
-                rubberDucksPage.getPriceByDate());
+        Assert.assertEquals(rubberDucksPage.getPriceByDate(), Expected_price_by_Date,
+                "Actual first's duck price sorted by Date = " + rubberDucksPage.getPriceByDate());
     }
 
     @Test
     public void sortByNameTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickName();
-        Assert.assertEquals(rubberDucksPage.getPriceByName(),
-                Expected_price_by_Name);
-        System.out.println("Price first duck by sort of Name = " +
-                rubberDucksPage.getPriceByName());
+        Assert.assertEquals(rubberDucksPage.getPriceByName(), Expected_price_by_Name,
+                "Actual first's duck price sorted by Name = " + rubberDucksPage.getPriceByName());
     }
 }
