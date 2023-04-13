@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add &quot;Be Happy&quot; to the BaseTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update LoginTest">
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681209926383</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update LoginTest">
+      <created>1681369471185</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681369471185</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,7 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add WebDriverWait to the FirstTest_Copy_Chupin.java" />
     <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
     <MESSAGE value="Add Stackoverflow Class" />
     <MESSAGE value="Add Aviasales Class - Version 1.0" />
@@ -387,7 +390,8 @@
     <MESSAGE value="Delete escape to the RubberDucksPage" />
     <MESSAGE value="Delete escape from the BasePage and from the BaseTest" />
     <MESSAGE value="Add &quot;Be Happy&quot; to the BaseTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add &quot;Be Happy&quot; to the BaseTest" />
+    <MESSAGE value="Update LoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update LoginTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

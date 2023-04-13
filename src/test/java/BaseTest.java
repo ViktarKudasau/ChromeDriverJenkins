@@ -12,8 +12,8 @@ import java.time.Duration;
 public class BaseTest {
     protected String base_URL = "https://litecart.stqa.ru/en/";
     protected WebDriver webDriver;
-    MainPage mainPage;
-    RubberDucksPage rubberDucksPage;
+    protected MainPage mainPage;
+    protected RubberDucksPage rubberDucksPage;
 
     @BeforeClass
     public void beforeClass(){
