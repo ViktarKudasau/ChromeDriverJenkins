@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the MainPage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.RubberDucksTest">
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChromDriver" />
       <option name="PACKAGE_NAME" value="" />
@@ -118,8 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
         <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
         <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
@@ -394,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681377775854</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add Selenide to the MainPage">
+      <created>1681379916124</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681379916124</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -409,7 +416,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Alert to the Aviasales class" />
     <MESSAGE value="Add switchTo to the Frame_switchTo class" />
     <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
     <MESSAGE value="Add switchTo().window()" />
@@ -434,7 +440,8 @@
     <MESSAGE value="Update All Tests and Pages" />
     <MESSAGE value="Add options &quot;invocationCount and priority&quot; to the LoginTest" />
     <MESSAGE value="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage" />
+    <MESSAGE value="Add Selenide to the MainPage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the MainPage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
