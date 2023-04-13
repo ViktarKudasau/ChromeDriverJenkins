@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
+
 import java.time.Duration;
 
 public class BaseTest {
@@ -16,7 +17,7 @@ public class BaseTest {
     protected RubberDucksPage rubberDucksPage;
 
     @BeforeClass
-    public void beforeClass(){
+    public void beforeClass() {
         mainPage = new MainPage(webDriver);
         rubberDucksPage = new RubberDucksPage(webDriver);
     }

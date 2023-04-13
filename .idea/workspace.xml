@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update LoginTest">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Update BaseTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -351,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681369471185</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update BaseTest">
+      <created>1681369644041</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681369644041</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,7 +379,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update version of seleniumhq (WebDriverWait) to the pom.xml" />
     <MESSAGE value="Add Stackoverflow Class" />
     <MESSAGE value="Add Aviasales Class - Version 1.0" />
     <MESSAGE value="Add Aviasales test with variables - Version 2.0" />
@@ -391,7 +403,8 @@
     <MESSAGE value="Delete escape from the BasePage and from the BaseTest" />
     <MESSAGE value="Add &quot;Be Happy&quot; to the BaseTest" />
     <MESSAGE value="Update LoginTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update LoginTest" />
+    <MESSAGE value="Update BaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update BaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -403,7 +416,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>
-          <line>13</line>
+          <line>17</line>
           <properties class="RubberDucksTest" method="sortByDateTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

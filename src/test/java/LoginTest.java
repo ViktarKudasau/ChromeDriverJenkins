@@ -9,12 +9,14 @@ public class LoginTest extends BaseTest {
     @Test(invocationCount = 1, priority = 0)
     public void TestIncorrectLogin() {
         mainPage.fillIncorrectLoginAndSend();
-        Assert.assertEquals(mainPage.getErrorMessage(), Expected_Error_Message);
+        Assert.assertEquals(mainPage.getErrorMessage(), Expected_Error_Message,
+                "Actual error message is " + "'" + mainPage.getErrorMessage() + "'");
     }
 
     @Test(priority = 1)
     public void TestCorrectLogin() {
         mainPage.fillCorrectLoginAndSend();
-        Assert.assertEquals(mainPage.getSuccessMessage(), Expected_Success_Message);
+        Assert.assertEquals(mainPage.getSuccessMessage(), Expected_Success_Message,
+                "Actual success message is " + "'" + mainPage.getSuccessMessage() + "'");
     }
 }
