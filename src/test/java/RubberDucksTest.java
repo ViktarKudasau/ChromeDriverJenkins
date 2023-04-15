@@ -9,6 +9,7 @@ public class RubberDucksTest extends BaseTest {
 
     @Test
     public void quantityDucksTest() {
+        logger.info("quantityDucksTest started");
         rubberDucksPage.clickRubberDucks();
         Assert.assertEquals(rubberDucksPage.getQuantityDucks(), expectedQuantityDucks,
                 "Actual quantity ducks = " + rubberDucksPage.getQuantityDucks());
@@ -16,6 +17,7 @@ public class RubberDucksTest extends BaseTest {
 
     @Test
     public void sortByDateTest() {
+        logger.info("sortByDateTest started");
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDate();
         Assert.assertEquals(rubberDucksPage.getPriceByDate(), expectedPriceByDate,
@@ -24,6 +26,7 @@ public class RubberDucksTest extends BaseTest {
 
     @Test
     public void sortByNameTest() {
+        logger.info("sortByNameTest started");
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickName();
         Assert.assertEquals(rubberDucksPage.getPriceByName(), expectedPriceByName,

@@ -1,11 +1,9 @@
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
 
@@ -17,32 +15,33 @@ public class BaseTest {
     protected String baseURL = "https://litecart.stqa.ru/en/";
     protected WebDriver webDriver;
     protected MainPage mainPage;
+
     protected RubberDucksPage rubberDucksPage;
+    Logger logger = Logger.getLogger(BaseTest.class);
 
     @BeforeClass
     public void beforeClass() {
-        mainPage = new MainPage(webDriver);
-        rubberDucksPage = new RubberDucksPage(webDriver);
-    }
-
-    @BeforeTest
-    public void beforeTest() {
+        logger.info("Before test started");
         WebDriverManager.chromedriver().setup();
         webDriver = new ChromeDriver();
         webDriver.manage().window().maximize();
         webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
         WebDriverRunner.setWebDriver(webDriver);
+        mainPage = new MainPage(webDriver);
+        rubberDucksPage = new RubberDucksPage(webDriver);
+        logger.info("Before test ended");
     }
 
     @BeforeMethod
     public void beforeMethod() {
         webDriver.manage().deleteAllCookies();
+        logger.info("Opening baseURL");
         open(baseURL);
     }
 
-    @AfterTest
-    public void afterTest() {
-        System.out.println("Be Happy :) ");
+    @AfterClass
+    public void afterClass() {
+        logger.info("After tests - Tests ended");
         webDriver.quit();
     }
 }

@@ -4,13 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Selenide to the MainPage">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Rename variables">
+      <change afterPath="$PROJECT_DIR$/allure-results/07fd6920-0a15-4719-8f26-171a0ec552cd-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1c5ea116-2d14-4fb5-a0e3-2dc4f268b774-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2518c7e1-b391-4c26-bfa8-e5379a9cdfaf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a117bea-2186-4fec-95cd-bae89730a938-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2a7abf4b-11b2-4d97-83b0-6c5cc557594e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3f70b120-1a55-4252-b1b3-e6df2ea31946-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/854e4df4-d85c-4184-a7a5-1c80369dbdec-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/863484f7-1af9-4afc-9199-abf623660076-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a6528762-8e47-4d85-987b-88e3a4fcb124-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c8dc605b-d292-4961-aa45-cb189749acdf-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/f39200a5-19e2-48e9-ba0d-48f17abbbbf9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ducksLog.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +60,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Git/Java45/ChromDriverDucks&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Git/Java45/ChromDriverDucks_With_Selenide_Copy&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -416,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681379916124</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Rename variables">
+      <created>1681544245961</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681544245961</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -431,7 +452,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add switchTo to the Frame_switchTo class" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add getWindowHandles Frame_switchTo class" />
     <MESSAGE value="Add switchTo().window()" />
     <MESSAGE value="Add PageObject class" />
@@ -456,7 +477,8 @@
     <MESSAGE value="Add options &quot;invocationCount and priority&quot; to the LoginTest" />
     <MESSAGE value="Add WebDriverRunner to the BaseTest&#10;Add $ to the MainPage" />
     <MESSAGE value="Add Selenide to the MainPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Selenide to the MainPage" />
+    <MESSAGE value="Rename variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename variables" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -468,8 +490,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/RubberDucksTest.java</url>
-          <line>17</line>
-          <properties class="RubberDucksTest" method="sortByDateTest">
+          <line>35</line>
+          <properties class="RubberDucksTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
