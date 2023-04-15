@@ -7,37 +7,37 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage extends BasePage {
 
-    private static final By Email = By.xpath("//input[@name='email']");
-    private static final By Password = By.xpath("//input[@name='password']");
-    private static final By Button_Login = By.xpath("//button[@value='Login']");
-    private static final By Error_Message = By.xpath("//div[@class='notice errors']");
-    private static final By Success_Message = By.xpath("//div[@class='notice success']");
-    String Correct_Email = "viktar.kudasau@gmail.com";
-    String Incorrect_Email = "xwq2@de.com";
-    String Correct_Password = "123456789";
-    String Incorrect_Password = "123";
+    private static final By EMAIL = By.xpath("//input[@name='email']");
+    private static final By PASSWORD = By.xpath("//input[@name='password']");
+    private static final By LOGIN = By.xpath("//button[@value='Login']");
+    private static By errorMessage = By.xpath("//div[@class='notice errors']");
+    private static By successMessage = By.xpath("//div[@class='notice success']");
+    String correctEmail = "viktar.kudasau@gmail.com";
+    String incorrectEmail = "xwq2@de.com";
+    String correctPassword = "123456789";
+    String incorrectPassword = "123";
 
     public MainPage(WebDriver driver) {
         super(driver);
     }
 
     public void fillIncorrectLoginAndSend() {
-        $(Email).shouldBe(Condition.exist).sendKeys(Incorrect_Email);
-        $(Password).shouldBe(Condition.exist).sendKeys(Incorrect_Password);
-        $(Button_Login).shouldBe(Condition.exist).click();
+        $(EMAIL).shouldBe(Condition.exist).sendKeys(incorrectEmail);
+        $(PASSWORD).shouldBe(Condition.exist).sendKeys(incorrectPassword);
+        $(LOGIN).shouldBe(Condition.exist).click();
     }
 
     public void fillCorrectLoginAndSend() {
-        $(Email).shouldBe(Condition.exist).sendKeys(Correct_Email);
-        $(Password).shouldBe(Condition.exist).sendKeys(Correct_Password);
-        $(Button_Login).shouldBe(Condition.exist).click();
+        $(EMAIL).shouldBe(Condition.exist).sendKeys(correctEmail);
+        $(PASSWORD).shouldBe(Condition.exist).sendKeys(correctPassword);
+        $(LOGIN).shouldBe(Condition.exist).click();
     }
 
     public String getErrorMessage() {
-        return $(Error_Message).shouldBe(Condition.visible).getText();
+        return $(errorMessage).shouldBe(Condition.visible).getText();
     }
 
     public String getSuccessMessage() {
-        return $(Success_Message).shouldBe(Condition.visible).getText();
+        return $(successMessage).shouldBe(Condition.visible).getText();
     }
 }

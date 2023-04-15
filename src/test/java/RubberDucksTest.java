@@ -3,14 +3,14 @@ import org.testng.annotations.Test;
 
 public class RubberDucksTest extends BaseTest {
 
-    int expected_Quantity_Ducks = 5;
-    String Expected_price_by_Date = "$18";
-    String Expected_price_by_Name = "$20";
+    int expectedQuantityDucks = 5;
+    String expectedPriceByDate = "$18";
+    String expectedPriceByName = "$20";
 
     @Test
     public void quantityDucksTest() {
         rubberDucksPage.clickRubberDucks();
-        Assert.assertEquals(rubberDucksPage.getQuantityDucks(), expected_Quantity_Ducks,
+        Assert.assertEquals(rubberDucksPage.getQuantityDucks(), expectedQuantityDucks,
                 "Actual quantity ducks = " + rubberDucksPage.getQuantityDucks());
     }
 
@@ -18,7 +18,7 @@ public class RubberDucksTest extends BaseTest {
     public void sortByDateTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickDate();
-        Assert.assertEquals(rubberDucksPage.getPriceByDate(), Expected_price_by_Date,
+        Assert.assertEquals(rubberDucksPage.getPriceByDate(), expectedPriceByDate,
                 "Actual first's duck price sorted by Date = " + rubberDucksPage.getPriceByDate());
     }
 
@@ -26,7 +26,7 @@ public class RubberDucksTest extends BaseTest {
     public void sortByNameTest() {
         rubberDucksPage.clickRubberDucks();
         rubberDucksPage.clickName();
-        Assert.assertEquals(rubberDucksPage.getPriceByName(), Expected_price_by_Name,
+        Assert.assertEquals(rubberDucksPage.getPriceByName(), expectedPriceByName,
                 "Actual first's duck price sorted by Name = " + rubberDucksPage.getPriceByName());
     }
 }

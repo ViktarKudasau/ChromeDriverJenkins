@@ -14,7 +14,7 @@ import java.time.Duration;
 import static com.codeborne.selenide.Selenide.open;
 
 public class BaseTest {
-    protected String base_URL = "https://litecart.stqa.ru/en/";
+    protected String baseURL = "https://litecart.stqa.ru/en/";
     protected WebDriver webDriver;
     protected MainPage mainPage;
     protected RubberDucksPage rubberDucksPage;
@@ -37,7 +37,7 @@ public class BaseTest {
     @BeforeMethod
     public void beforeMethod() {
         webDriver.manage().deleteAllCookies();
-        open(base_URL);
+        open(baseURL);
     }
 
     @AfterTest
