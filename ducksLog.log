@@ -1,0 +1,42 @@
+2023-04-15 13:19:38 Thread: [main] INFO [BaseTest] Before test started
+2023-04-15 13:20:18 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-15 13:20:18 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:20:26 Thread: [main] INFO [LoginTest] TestCorrectLogin()
+2023-04-15 13:20:31 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:20:32 Thread: [main] INFO [LoginTest] TestIncorrectLogin()
+2023-04-15 13:20:38 Thread: [main] INFO [BaseTest] After tests - Tests ended
+2023-04-15 13:23:26 Thread: [main] INFO [BaseTest] Before test started
+2023-04-15 13:24:05 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-15 13:24:07 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:24:11 Thread: [main] INFO [BaseTest] quantityDucksTest started
+2023-04-15 13:24:14 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:24:15 Thread: [main] INFO [BaseTest] sortByDateTest started
+2023-04-15 13:24:47 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:24:48 Thread: [main] INFO [BaseTest] sortByNameTest started
+2023-04-15 13:24:51 Thread: [main] INFO [BaseTest] After tests - Tests ended
+2023-04-15 13:27:21 Thread: [main] INFO [BaseTest] Before test started
+2023-04-15 13:27:59 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-15 13:27:59 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:28:04 Thread: [main] INFO [BaseTest] quantityDucksTest started
+2023-04-15 13:28:07 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:28:08 Thread: [main] INFO [BaseTest] sortByDateTest started
+2023-04-15 13:28:11 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:28:12 Thread: [main] INFO [BaseTest] sortByNameTest started
+2023-04-15 13:28:13 Thread: [main] INFO [BaseTest] After tests - Tests ended
+
+2023-04-15 13:38:03 Thread: [main] INFO [BaseTest] Before test started
+2023-04-15 13:38:39 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-15 13:38:40 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:38:44 Thread: [main] INFO [LoginTest] TestCorrectLogin()
+2023-04-15 13:38:56 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:38:57 Thread: [main] INFO [LoginTest] TestIncorrectLogin()
+2023-04-15 13:39:02 Thread: [main] INFO [BaseTest] After tests - Tests ended
+2023-04-15 13:39:04 Thread: [main] INFO [BaseTest] Before test started
+2023-04-15 13:39:13 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-15 13:39:13 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:39:17 Thread: [main] INFO [BaseTest] quantityDucksTest started
+2023-04-15 13:39:20 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:39:21 Thread: [main] INFO [BaseTest] sortByDateTest started
+2023-04-15 13:39:23 Thread: [main] INFO [BaseTest] Opening baseURL
+2023-04-15 13:39:24 Thread: [main] INFO [BaseTest] sortByNameTest started
+2023-04-15 13:39:26 Thread: [main] INFO [BaseTest] After tests - Tests ended
