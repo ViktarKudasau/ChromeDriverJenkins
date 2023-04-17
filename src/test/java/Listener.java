@@ -32,6 +32,7 @@ public class Listener implements ITestListener {
         logger.info("Test failed");
     }
 
+
     @Override
     public void onStart(ITestContext context) {
         logger.info("On start");

@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add getScreenshot method to the BaseTest">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Add Listener class">
+      <change afterPath="$PROJECT_DIR$/allure-results/01dd89c3-5111-4097-bedf-9a98d63ab1ee-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/0ccb509c-a00e-4f16-b756-018bbf346687-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1161f84d-9db0-4a24-93a1-2984d2b50b7c-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/143ae8ca-1ca0-4a10-afd9-60d255568fce-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/1ce728df-48b8-4686-a677-77c36bef6293-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/1f8bc8e4-d9e5-4361-8de6-8b771b9c66aa-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/2b8ac8d2-fa52-4d2d-8e0f-6c370f13377f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/33ae49a1-b5ce-45f5-b7d8-857796ac2240-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/3908ad69-493b-48a6-933a-07b8e0c6a61d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3a3e85a4-b3bf-494a-8d73-e1a3f339112b-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/52a7daa7-8fc9-4df8-8f01-84e7bae0abe5-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/592c2f38-6288-4d1f-a338-6551ea5f55aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5f9a106f-4483-4a7e-851d-f53d9e97d31c-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/66838e76-6f91-4c34-a883-dd0370c24acf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/82d5e0d1-26d1-489f-ba36-e8498d7dfd55-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8b665136-63b9-402f-894a-93d9353b4f63-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8f655081-3ba6-4ab6-b811-9993b670b6b4-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/91e2418f-edd8-4d9f-90d9-8e965249aee9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/97a8b293-34ac-46c3-8d02-7ed1372c924c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9f004c37-996b-4528-8637-fe5b81753c2b-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/a766c411-3583-4003-a869-073c5a36ab41-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/b8e7b135-ed01-4984-9ba5-c55acda71eb4-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/c6458839-b29f-4262-9c36-a963d4afd010-container.json" afterDir="false" />
@@ -21,13 +32,11 @@
       <change afterPath="$PROJECT_DIR$/allure-results/d012b0a4-2b3b-4cdc-9c6e-91fc4da66313-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/d46e0367-5a16-4ca0-9e00-cc09ca1cf7aa-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/e297ea7b-6b78-4c22-b206-def6ff5b5236-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/e30374b2-842b-4e98-8fe0-ad97e0ad1f8b-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ef89b512-5e7a-4197-9e4a-7a4d7b7864e7-container.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/allure-results/fc68a249-b0f9-459b-a163-63bed86ced72-result.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ducksLog.log.2023-04-15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Listener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ducksLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ducksLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -467,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681717049955</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Add Listener class">
+      <created>1681719125283</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1681719125283</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +499,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add DucksTestIncorrectLogin" />
     <MESSAGE value="Add verifyResultText" />
     <MESSAGE value="Update Aviasales: add verifyResultText method to the MainPageObject" />
     <MESSAGE value="Add BaseTest" />
@@ -508,7 +523,8 @@
     <MESSAGE value="Add logger.info to the MainPage" />
     <MESSAGE value="Add logger.info to the BaseTest" />
     <MESSAGE value="Add getScreenshot method to the BaseTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getScreenshot method to the BaseTest" />
+    <MESSAGE value="Add Listener class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Listener class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
