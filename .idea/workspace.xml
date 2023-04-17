@@ -5,25 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Rename variables">
-      <change afterPath="$PROJECT_DIR$/allure-results/07fd6920-0a15-4719-8f26-171a0ec552cd-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/1c5ea116-2d14-4fb5-a0e3-2dc4f268b774-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2518c7e1-b391-4c26-bfa8-e5379a9cdfaf-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2a117bea-2186-4fec-95cd-bae89730a938-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2a7abf4b-11b2-4d97-83b0-6c5cc557594e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3f70b120-1a55-4252-b1b3-e6df2ea31946-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/854e4df4-d85c-4184-a7a5-1c80369dbdec-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/863484f7-1af9-4afc-9199-abf623660076-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a6528762-8e47-4d85-987b-88e3a4fcb124-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c8dc605b-d292-4961-aa45-cb189749acdf-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f39200a5-19e2-48e9-ba0d-48f17abbbbf9-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ducksLog.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/0ccb509c-a00e-4f16-b756-018bbf346687-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3908ad69-493b-48a6-933a-07b8e0c6a61d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/66838e76-6f91-4c34-a883-dd0370c24acf-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a766c411-3583-4003-a869-073c5a36ab41-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b8e7b135-ed01-4984-9ba5-c55acda71eb4-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/c6458839-b29f-4262-9c36-a963d4afd010-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/cc2f74d3-69e4-41b6-8702-164df3aa02a9-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/d46e0367-5a16-4ca0-9e00-cc09ca1cf7aa-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/fc68a249-b0f9-459b-a163-63bed86ced72-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ducksLog.log.2023-04-15" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ducksLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ducksLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RubberDucksTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/RubberDucksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageOblects/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.RubberDucksTest">
+  <component name="RunManager" selected="TestNG.LoginTest (1)">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +78,17 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChoromeDriverDucksSelenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,12 +104,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.TestIncorrectLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
+    <configuration name="LoginTest.TestIncorrectLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChoromeDriverDucksSelenide" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LoginTest" />
       <option name="METHOD_NAME" value="TestIncorrectLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RubberDucksTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ChoromeDriverDucksSelenide" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,37 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RubberDucksTest.quantityDucksTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
-      <option name="METHOD_NAME" value="quantityDucksTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RubberDucksTest.sortByDateTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ChromDriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RubberDucksTest" />
-      <option name="METHOD_NAME" value="sortByDateTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RubberDucksTest" />
+        <item itemvalue="TestNG.LoginTest (1)" />
+        <item itemvalue="TestNG.RubberDucksTest (1)" />
+        <item itemvalue="TestNG.LoginTest.TestIncorrectLogin (1)" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.RubberDucksTest.sortByDateTest" />
-        <item itemvalue="TestNG.RubberDucksTest.quantityDucksTest" />
-        <item itemvalue="TestNG.LoginTest.TestIncorrectLogin" />
+        <item itemvalue="TestNG.RubberDucksTest" />
       </list>
     </recent_temporary>
   </component>
