@@ -50,5 +50,4 @@ public class BaseTest {
         logger.info("Tests ended");
         webDriver.quit();
     }
-
 }
