@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Encoding Listener.java to the UTF-8">
+    <list default="true" id="b10a24e6-5333-4c59-bd7f-fd772b1a6b07" name="Changes" comment="Remove space from BaseTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ducksLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/ducksLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Listener.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -448,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681721349545</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Remove space from BaseTest">
+      <created>1681725977392</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1681725977392</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +473,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update Aviasales: add verifyResultText method to the MainPageObject" />
     <MESSAGE value="Add BaseTest" />
     <MESSAGE value="Add Ducks" />
     <MESSAGE value="LoginTest" />
@@ -489,7 +497,8 @@
     <MESSAGE value="Add getScreenshot method to the BaseTest" />
     <MESSAGE value="Add Listener class" />
     <MESSAGE value="Encoding Listener.java to the UTF-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encoding Listener.java to the UTF-8" />
+    <MESSAGE value="Remove space from BaseTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove space from BaseTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

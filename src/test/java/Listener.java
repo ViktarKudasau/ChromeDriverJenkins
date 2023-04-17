@@ -16,7 +16,6 @@ public class Listener implements ITestListener {
     public void onTestStart(ITestResult result) {
         logger.info("Test start");
         getScreen();
-
     }
 
     @Override
