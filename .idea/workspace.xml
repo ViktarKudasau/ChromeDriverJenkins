@@ -89,17 +89,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.LoginTest (1)">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ChoromeDriverDucksSelenide" />
       <option name="PACKAGE_NAME" value="" />
