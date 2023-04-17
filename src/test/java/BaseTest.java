@@ -34,14 +34,15 @@ public class BaseTest {
 
     @BeforeMethod
     public void beforeMethod() {
+        logger.info("beforeMethod deleting cookies");
         webDriver.manage().deleteAllCookies();
-        logger.info("Opening baseURL");
+        logger.info("Opening " + baseURL);
         open(baseURL);
     }
 
     @AfterClass
     public void afterClass() {
-        logger.info("After tests - Tests ended");
+        logger.info("Tests ended");
         webDriver.quit();
     }
 }
