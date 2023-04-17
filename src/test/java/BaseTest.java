@@ -1,14 +1,18 @@
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Allure;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
+
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -46,8 +50,19 @@ public class BaseTest {
     }
 
     @AfterClass
-    public void afterClass() {
+    public void afterClass() throws InterruptedException {
         logger.info("Tests ended");
+  //      webDriver.manage().timeouts().wait(3000);
         webDriver.quit();
+    }
+    public void addAttachmentScreenshot(){
+        ByteArrayInputStream screenshot = new ByteArrayInputStream(((TakesScreenshot)
+                WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES));
+        try {
+            Allure.addAttachment("Screenshot_" + System.currentTimeMillis() +".png",
+                    screenshot);
+        } catch (WebDriverException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
