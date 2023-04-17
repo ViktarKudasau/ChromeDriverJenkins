@@ -42,12 +42,16 @@ public class Listener implements ITestListener {
     }
 
     public void getScreen(){
+        String fileName;
+        logger.info("start getting screenshot");
         File screenshot = ((TakesScreenshot) WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.FILE);
-        File res = new File("src/main/resources/screenshots/screen_" + System.currentTimeMillis() + ".png");
+        fileName = "src/main/resources/screenshots/screen_" + System.currentTimeMillis() + ".png";
+        File res = new File(fileName);
         try {
             FileUtils.copyFile(screenshot, res);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        logger.info("screenshot was saved to " + fileName);
     }
 }
