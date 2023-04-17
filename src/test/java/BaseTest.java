@@ -1,12 +1,16 @@
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
-
+import java.io.File;
+import java.io.IOException;
 import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -44,5 +48,15 @@ public class BaseTest {
     public void afterClass() {
         logger.info("Tests ended");
         webDriver.quit();
+    }
+
+    public void getScreen(){
+        File screenshot = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.FILE);
+        File res = new File("src/main/resources/screenshots/screen_" + System.currentTimeMillis() + ".png");
+        try {
+            FileUtils.copyFile(screenshot, res);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

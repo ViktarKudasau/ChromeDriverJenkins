@@ -12,6 +12,7 @@ public class LoginTest extends BaseTest {
     public void TestIncorrectLogin() {
         logger.info("TestIncorrectLogin started");
         mainPage.fillIncorrectLoginAndSend();
+        getScreen();
         Assert.assertEquals(mainPage.getErrorMessage(), expectedErrorMessage,
                 "Actual error message is " + "'" + mainPage.getErrorMessage() + "'");
     }
@@ -20,6 +21,7 @@ public class LoginTest extends BaseTest {
     public void TestCorrectLogin() {
         logger.info("TestCorrectLogin started");
         mainPage.fillCorrectLoginAndSend();
+        getScreen();
         Assert.assertEquals(mainPage.getSuccessMessage(), expectedSuccessMessage,
                 "Actual success message is " + "'" + mainPage.getSuccessMessage() + "'");
     }
