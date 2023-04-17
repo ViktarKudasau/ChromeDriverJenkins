@@ -15,6 +15,7 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.open;
 
+@Listeners (Listener.class)
 public class BaseTest {
     protected String baseURL = "https://litecart.stqa.ru/en/";
     protected WebDriver webDriver;
@@ -48,16 +49,6 @@ public class BaseTest {
     public void afterClass() {
         logger.info("Tests ended");
         webDriver.quit();
-    }
-
-    public void getScreen(){
-        File screenshot = ((TakesScreenshot)webDriver).getScreenshotAs(OutputType.FILE);
-        File res = new File("src/main/resources/screenshots/screen_" + System.currentTimeMillis() + ".png");
-        try {
-            FileUtils.copyFile(screenshot, res);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
     }
 
 }
