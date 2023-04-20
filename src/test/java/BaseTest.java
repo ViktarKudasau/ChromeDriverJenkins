@@ -1,20 +1,13 @@
 import com.codeborne.selenide.WebDriverRunner;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Allure;
-import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import org.example.Listener;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.IOException;
 import java.time.Duration;
 
 import static com.codeborne.selenide.Selenide.open;
@@ -55,6 +48,8 @@ public class BaseTest {
   //      webDriver.manage().timeouts().wait(3000);
         webDriver.quit();
     }
+
+    /*
     public void addAttachmentScreenshot(){
         ByteArrayInputStream screenshot = new ByteArrayInputStream(((TakesScreenshot)
                 WebDriverRunner.getWebDriver()).getScreenshotAs(OutputType.BYTES));
@@ -65,4 +60,6 @@ public class BaseTest {
             throw new RuntimeException(e);
         }
     }
+
+     */
 }
