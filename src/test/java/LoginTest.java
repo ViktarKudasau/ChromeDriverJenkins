@@ -33,8 +33,8 @@ public class LoginTest extends BaseTest {
     public void TestCorrectLogin() {
         logger.info("TestCorrectLogin started");
         mainPage.fillCorrectLoginAndSend();
-        Assert.assertNotEquals(mainPage.getSuccessMessage(), expectedSuccessMessage,
+        Assert.assertEquals(mainPage.getSuccessMessage(), expectedSuccessMessage,
                 "Actual success message is " + "'" + mainPage.getSuccessMessage() + "'");
-        addAttachmentScreenshot();
+       // addAttachmentScreenshot();
     }
 }
