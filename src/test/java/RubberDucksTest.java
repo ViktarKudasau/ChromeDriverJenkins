@@ -1,3 +1,4 @@
+import io.qameta.allure.Allure;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,12 +23,7 @@ public class RubberDucksTest extends BaseTest {
         rubberDucksPage.clickDate();
         Assert.assertEquals(rubberDucksPage.getPriceByDate(), expectedPriceByDate,
                 "Actual first's duck price sorted by Date = " + rubberDucksPage.getPriceByDate());
- /*       Listener list = new Listener();
-        list.onTestFailure();
-        addAttachmentScreenshot();
-  */
     }
-
 
     @Test
     public void sortByNameTest() {

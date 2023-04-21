@@ -17,11 +17,9 @@ import java.io.IOException;
 public class Listener implements ITestListener {
     Logger logger = Logger.getLogger(Listener.class);
     static WebDriver driver;
-
-
+    
     @Override
     public void onTestFailure(ITestResult result) {
-        //getScreen();
         logger.info("Start screenshot");
         attachScreenshot();
         logger.info("End screenshot");

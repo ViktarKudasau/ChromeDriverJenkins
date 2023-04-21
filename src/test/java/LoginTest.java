@@ -1,40 +1,37 @@
-import com.codeborne.selenide.WebDriverRunner;
-import io.qameta.allure.Allure;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
-import org.testng.annotations.Listeners;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
-
-import java.io.ByteArrayInputStream;
 
 public class LoginTest extends BaseTest {
 
-    String expectedSuccessMessage = "You are now logged in as Kudasau.";
-    String expectedErrorMessage = "Wrong password or the account is disabled, or does not exist";
+    static String expectedSuccessMessage = "You are now logged in as Viktar Kudasau.";
+    static String expectedErrorMessage = "Wrong password or the account is disabled, or does not exist";
+    static String expectedErrorMessageByEmptyField = "You must provide both email address and password.";
+    static String correctEmail = "viktar.kudasau@gmail.com";
+    static String incorrectEmail = "xwq2@de.com";
+    static String correctPassword = "123456789";
+    static String incorrectPassword = "123";
+
     Logger logger = Logger.getLogger(LoginTest.class);
 
-    @Test
-    @Description("TestIncorrectLogin is ......................................")
-    @Epic("User stories ...................")
-    public void TestIncorrectLogin() {
-        logger.info("TestIncorrectLogin started");
-        mainPage.fillIncorrectLoginAndSend();
-        Assert.assertEquals(mainPage.getErrorMessage(), expectedErrorMessage,
-                "Actual error message is " + "'" + mainPage.getErrorMessage() + "'");
+    @DataProvider(name = "LoginValues")
+    public static Object[][] LoginValues() {
+        return new Object[][] {
+                {incorrectEmail, incorrectPassword, expectedErrorMessage},
+                {incorrectEmail, correctPassword, expectedErrorMessage},
+                {correctEmail, incorrectPassword, expectedErrorMessage},
+                {correctEmail, correctPassword, expectedSuccessMessage},
+                {correctEmail, "", expectedErrorMessageByEmptyField},
+        };
     }
-
-    @Test
-    @Description("TestCorrectLogin is ................................")
-    public void TestCorrectLogin() {
-        logger.info("TestCorrectLogin started");
-        mainPage.fillCorrectLoginAndSend();
-        Assert.assertEquals(mainPage.getSuccessMessage(), expectedSuccessMessage,
-                "Actual success message is " + "'" + mainPage.getSuccessMessage() + "'");
-       // addAttachmentScreenshot();
+    @Test(dataProvider = "LoginValues")
+    @Epic("RubberDucks Login Test")
+    @Description("Test API 'Login' with different values: correct values, incorrect, empty fields,")
+    public void LoginTest (String Email, String Password, String ExpectedResult) {
+        logger.info("TestLogin started with filling Email = " + Email + " , Password = " + Password);
+        Assert.assertEquals(mainPage.GetMessage(Email, Password), ExpectedResult);
     }
 }

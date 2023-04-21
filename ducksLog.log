@@ -1,267 +1,659 @@
-2023-04-15 13:19:38 Thread: [main] INFO [BaseTest] Before test started
-2023-04-15 13:20:18 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-15 13:20:18 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:20:26 Thread: [main] INFO [LoginTest] TestCorrectLogin()
-2023-04-15 13:20:31 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:20:32 Thread: [main] INFO [LoginTest] TestIncorrectLogin()
-2023-04-15 13:20:38 Thread: [main] INFO [BaseTest] After tests - Tests ended
-2023-04-15 13:23:26 Thread: [main] INFO [BaseTest] Before test started
-2023-04-15 13:24:05 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-15 13:24:07 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:24:11 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-15 13:24:14 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:24:15 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-15 13:24:47 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:24:48 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-15 13:24:51 Thread: [main] INFO [BaseTest] After tests - Tests ended
-2023-04-15 13:27:21 Thread: [main] INFO [BaseTest] Before test started
-2023-04-15 13:27:59 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-15 13:27:59 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:28:04 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-15 13:28:07 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:28:08 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-15 13:28:11 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:28:12 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-15 13:28:13 Thread: [main] INFO [BaseTest] After tests - Tests ended
-
-2023-04-15 13:38:03 Thread: [main] INFO [BaseTest] Before test started
-2023-04-15 13:38:39 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-15 13:38:40 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:38:44 Thread: [main] INFO [LoginTest] TestCorrectLogin()
-2023-04-15 13:38:56 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:38:57 Thread: [main] INFO [LoginTest] TestIncorrectLogin()
-2023-04-15 13:39:02 Thread: [main] INFO [BaseTest] After tests - Tests ended
-2023-04-15 13:39:04 Thread: [main] INFO [BaseTest] Before test started
-2023-04-15 13:39:13 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-15 13:39:13 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:39:17 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-15 13:39:20 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:39:21 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-15 13:39:23 Thread: [main] INFO [BaseTest] Opening baseURL
-2023-04-15 13:39:24 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-15 13:39:26 Thread: [main] INFO [BaseTest] After tests - Tests ended
-2023-04-17 12:34:18 Thread: [main] INFO [Listener] On start
-2023-04-17 12:34:19 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:34:38 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:34:38 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:34:38 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:34:41 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:34:43 Thread: [main] INFO [LoginTest] TestCorrectLogin started
-2023-04-17 12:34:43 Thread: [main] INFO [pageOblects.MainPage] start filling viktar.kudasau@gmail.com
-2023-04-17 12:34:44 Thread: [main] INFO [pageOblects.MainPage] start filling 123456789
-2023-04-17 12:34:45 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:34:46 Thread: [main] INFO [pageOblects.MainPage] method 'fillCorrectLoginAndSend' ended
-2023-04-17 12:34:46 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:34:46 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:34:47 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:34:47 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:34:47 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:34:48 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:34:49 Thread: [main] INFO [LoginTest] TestIncorrectLogin started
-2023-04-17 12:34:49 Thread: [main] INFO [pageOblects.MainPage] start filling with xwq2@de.com
-2023-04-17 12:34:50 Thread: [main] INFO [pageOblects.MainPage] start filling with 123
-2023-04-17 12:34:51 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:34:56 Thread: [main] INFO [pageOblects.MainPage] method 'fillIncorrectLoginAndSend' ended
-2023-04-17 12:34:56 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:34:57 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:34:59 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:34:59 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:35:07 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:35:12 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:35:12 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:35:12 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:35:15 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:35:16 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-17 12:35:19 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:35:19 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:35:20 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:35:20 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:35:21 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-17 12:35:23 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:35:23 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:35:23 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:35:23 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:35:24 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-17 12:35:27 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:35:27 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:35:28 Thread: [main] INFO [Listener] On finish
-2023-04-17 12:38:05 Thread: [main] INFO [Listener] On start
-2023-04-17 12:38:05 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:38:31 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:38:31 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:38:31 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:38:35 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:38:36 Thread: [main] INFO [LoginTest] TestCorrectLogin started
-2023-04-17 12:38:36 Thread: [main] INFO [pageOblects.MainPage] start filling viktar.kudasau@gmail.com
-2023-04-17 12:38:38 Thread: [main] INFO [pageOblects.MainPage] start filling 123456789
-2023-04-17 12:38:38 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:38:39 Thread: [main] INFO [pageOblects.MainPage] method 'fillCorrectLoginAndSend' ended
-2023-04-17 12:38:39 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:38:40 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:38:40 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:38:40 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:38:40 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:38:41 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:38:42 Thread: [main] INFO [LoginTest] TestIncorrectLogin started
-2023-04-17 12:38:42 Thread: [main] INFO [pageOblects.MainPage] start filling with xwq2@de.com
-2023-04-17 12:38:42 Thread: [main] INFO [pageOblects.MainPage] start filling with 123
-2023-04-17 12:38:42 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:38:46 Thread: [main] INFO [pageOblects.MainPage] method 'fillIncorrectLoginAndSend' ended
-2023-04-17 12:38:46 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:38:46 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:38:46 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:38:46 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:38:48 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:38:52 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:38:52 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:38:52 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:38:54 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:38:55 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-17 12:38:57 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:38:57 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:38:57 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:38:57 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:38:57 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-17 12:38:59 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:38:59 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:38:59 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:39:00 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:39:00 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-17 12:39:02 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:39:02 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:39:02 Thread: [main] INFO [Listener] On finish
-2023-04-17 12:41:44 Thread: [main] INFO [Listener] On start
-2023-04-17 12:41:44 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:42:04 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:42:04 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:42:04 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:42:11 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:42:13 Thread: [main] INFO [LoginTest] TestCorrectLogin started
-2023-04-17 12:42:13 Thread: [main] INFO [pageOblects.MainPage] start filling viktar.kudasau@gmail.com
-2023-04-17 12:42:15 Thread: [main] INFO [pageOblects.MainPage] start filling 123456789
-2023-04-17 12:42:15 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:42:19 Thread: [main] INFO [pageOblects.MainPage] method 'fillCorrectLoginAndSend' ended
-2023-04-17 12:42:20 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:42:20 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:42:21 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:42:21 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:42:22 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:42:23 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:42:23 Thread: [main] INFO [LoginTest] TestIncorrectLogin started
-2023-04-17 12:42:23 Thread: [main] INFO [pageOblects.MainPage] start filling with xwq2@de.com
-2023-04-17 12:42:23 Thread: [main] INFO [pageOblects.MainPage] start filling with 123
-2023-04-17 12:42:24 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:42:27 Thread: [main] INFO [pageOblects.MainPage] method 'fillIncorrectLoginAndSend' ended
-2023-04-17 12:42:27 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:42:28 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:42:29 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:42:29 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:42:30 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:42:33 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:42:33 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:42:33 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:42:37 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:42:38 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-17 12:42:40 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:42:40 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:42:40 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:42:41 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:42:41 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-17 12:42:43 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:42:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:42:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:42:45 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:42:45 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-17 12:42:50 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:42:50 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:42:51 Thread: [main] INFO [Listener] On finish
-2023-04-17 12:44:41 Thread: [main] INFO [Listener] On start
-2023-04-17 12:44:41 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:44:57 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:44:57 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:44:57 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:45:05 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:45:06 Thread: [main] INFO [LoginTest] TestCorrectLogin started
-2023-04-17 12:45:06 Thread: [main] INFO [pageOblects.MainPage] start filling viktar.kudasau@gmail.com
-2023-04-17 12:45:08 Thread: [main] INFO [pageOblects.MainPage] start filling 123456789
-2023-04-17 12:45:08 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:45:09 Thread: [main] INFO [pageOblects.MainPage] method 'fillCorrectLoginAndSend' ended
-2023-04-17 12:45:10 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:45:10 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 12:45:12 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:45:12 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:45:12 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:45:13 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:45:14 Thread: [main] INFO [LoginTest] TestIncorrectLogin started
-2023-04-17 12:45:14 Thread: [main] INFO [pageOblects.MainPage] start filling with xwq2@de.com
-2023-04-17 12:45:14 Thread: [main] INFO [pageOblects.MainPage] start filling with 123
-2023-04-17 12:45:14 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 12:45:18 Thread: [main] INFO [pageOblects.MainPage] method 'fillIncorrectLoginAndSend' ended
-2023-04-17 12:45:18 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:45:19 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 12:45:19 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:45:19 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:45:20 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 12:45:36 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 12:45:36 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:45:36 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:45:39 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:45:41 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-17 12:45:42 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:45:42 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:45:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:45:43 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:45:43 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-17 12:45:45 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:45:45 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 12:45:46 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 12:45:46 Thread: [main] INFO [Listener] Test start
-2023-04-17 12:45:47 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-17 12:45:49 Thread: [main] INFO [Listener] Test passed
-2023-04-17 12:45:49 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 12:45:49 Thread: [main] INFO [Listener] On finish
-2023-04-17 13:08:44 Thread: [main] INFO [Listener] On start
-2023-04-17 13:08:44 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 13:09:02 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 13:09:02 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 13:09:02 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 13:09:06 Thread: [main] INFO [Listener] Test start
-2023-04-17 13:09:08 Thread: [main] INFO [LoginTest] TestCorrectLogin started
-2023-04-17 13:09:08 Thread: [main] INFO [pageOblects.MainPage] start filling viktar.kudasau@gmail.com
-2023-04-17 13:09:10 Thread: [main] INFO [pageOblects.MainPage] start filling 123456789
-2023-04-17 13:09:10 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 13:09:11 Thread: [main] INFO [pageOblects.MainPage] method 'fillCorrectLoginAndSend' ended
-2023-04-17 13:09:11 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 13:09:11 Thread: [main] INFO [pageOblects.MainPage] start getting success message: You are now logged in as Viktar Kudasau.
-2023-04-17 13:09:12 Thread: [main] INFO [Listener] Test passed
-2023-04-17 13:09:12 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 13:09:12 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 13:09:13 Thread: [main] INFO [Listener] Test start
-2023-04-17 13:09:13 Thread: [main] INFO [LoginTest] TestIncorrectLogin started
-2023-04-17 13:09:13 Thread: [main] INFO [pageOblects.MainPage] start filling with xwq2@de.com
-2023-04-17 13:09:14 Thread: [main] INFO [pageOblects.MainPage] start filling with 123
-2023-04-17 13:09:14 Thread: [main] INFO [pageOblects.MainPage] start clicking button By.xpath: //button[@value='Login']
-2023-04-17 13:09:18 Thread: [main] INFO [pageOblects.MainPage] method 'fillIncorrectLoginAndSend' ended
-2023-04-17 13:09:19 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 13:09:19 Thread: [main] INFO [pageOblects.MainPage] start getting error message: Wrong password or the account is disabled, or does not exist
-2023-04-17 13:09:19 Thread: [main] INFO [Listener] Test passed
-2023-04-17 13:09:19 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 13:09:27 Thread: [main] INFO [BaseTest] Before test started
-2023-04-17 13:09:30 Thread: [main] INFO [BaseTest] Before test ended
-2023-04-17 13:09:30 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 13:09:30 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 13:09:33 Thread: [main] INFO [Listener] Test start
-2023-04-17 13:09:35 Thread: [main] INFO [BaseTest] quantityDucksTest started
-2023-04-17 13:09:38 Thread: [main] INFO [Listener] Test passed
-2023-04-17 13:09:38 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 13:09:38 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 13:09:39 Thread: [main] INFO [Listener] Test start
-2023-04-17 13:09:39 Thread: [main] INFO [BaseTest] sortByDateTest started
-2023-04-17 13:09:41 Thread: [main] INFO [Listener] Test passed
-2023-04-17 13:09:41 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
-2023-04-17 13:09:41 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
-2023-04-17 13:09:41 Thread: [main] INFO [Listener] Test start
-2023-04-17 13:09:41 Thread: [main] INFO [BaseTest] sortByNameTest started
-2023-04-17 13:09:43 Thread: [main] INFO [Listener] Test passed
-2023-04-17 13:09:43 Thread: [main] INFO [BaseTest] Tests ended
-2023-04-17 13:09:47 Thread: [main] INFO [Listener] On finish
+2023-04-21 10:08:38 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:09:14 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:09:14 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:09:15 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:09:15 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:09:16 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:16:52 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:17:17 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:17:17 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:17:18 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:17:18 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:17:20 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:22:48 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:23:08 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:23:08 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:23:09 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:23:13 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:23:24 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:23:24 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:23:24 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:23:34 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:25:03 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:25:20 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:25:20 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:25:20 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:25:23 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:25:34 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:25:34 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:25:35 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:25:44 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:28:31 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:28:59 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:28:59 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:28:59 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:29:02 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:29:13 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:29:13 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:29:13 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:29:19 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:29:19 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:29:20 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:29:20 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:42:04 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:42:25 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:42:25 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:42:25 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:42:29 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:42:39 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:42:39 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:42:40 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:42:46 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:42:46 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:42:46 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:42:46 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:45:13 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:45:33 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:45:34 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:45:34 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:45:37 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:45:49 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:45:49 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:45:49 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:45:55 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:45:56 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:45:56 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:45:56 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:48:24 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:48:49 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:48:49 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:48:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:48:54 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:49:04 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:49:05 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:49:05 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:49:12 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:49:12 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:49:12 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:49:12 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:52:39 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:52:58 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:52:58 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:52:58 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:53:04 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:53:14 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:53:14 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:53:15 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:53:21 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:53:22 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:53:22 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:53:23 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:55:16 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:55:42 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:55:42 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:55:42 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:55:47 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:55:57 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:55:57 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:55:58 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:56:05 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 10:56:06 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 10:56:06 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 10:56:06 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:57:27 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:57:49 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:57:50 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:57:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:57:53 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:57:59 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:57:59 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:58:00 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:58:01 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 10:58:58 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 10:59:18 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 10:59:18 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:59:18 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:59:22 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:59:27 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 10:59:27 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 10:59:28 Thread: [main] INFO [LoginTest] TestLogin started
+2023-04-21 10:59:30 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 11:01:23 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 11:01:56 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 11:01:56 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:01:56 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:02:00 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 11:02:06 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:02:06 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:02:07 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 11:02:08 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 11:27:33 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 11:28:01 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 11:28:01 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:28:01 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:28:04 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 11:28:10 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:28:10 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:28:11 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 11:28:12 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:28:12 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:28:13 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = null
+2023-04-21 11:28:13 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 11:28:14 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 11:28:14 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 11:28:14 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:28:15 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:28:15 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = null , Password = null
+2023-04-21 11:28:15 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 11:28:15 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 11:28:15 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 11:28:15 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 11:29:22 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 11:29:49 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 11:29:49 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:29:49 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:29:54 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 11:30:00 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:30:00 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:30:01 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 11:30:02 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:30:02 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:30:03 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 11:30:05 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:30:05 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:30:06 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 11:30:11 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 11:30:12 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 11:30:12 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 11:30:12 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 11:48:40 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 11:49:04 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 11:49:05 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 11:49:05 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 11:49:10 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 11:49:12 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 11:49:13 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 11:49:13 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 11:49:13 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 12:03:06 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 12:03:27 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 12:03:28 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 12:03:28 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 12:03:32 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 12:03:38 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 12:03:38 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 12:03:39 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 12:03:40 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 12:03:40 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 12:03:41 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 12:03:42 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 13:46:26 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 13:46:52 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 13:46:52 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:46:52 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:46:56 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 13:47:01 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:47:01 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:47:02 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 13:47:09 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:47:09 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:47:09 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:47:09 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:47:09 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:47:10 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 13:47:12 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:47:12 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:47:13 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 13:47:20 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:47:20 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:47:20 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:47:21 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 13:53:13 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 13:53:35 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 13:53:35 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:53:35 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:53:39 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 13:53:45 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:53:45 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:53:45 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:53:45 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:53:45 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:53:47 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 13:53:48 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:53:48 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:53:48 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:53:48 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:53:49 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:53:49 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 13:53:50 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:53:50 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:53:50 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:53:50 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:53:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:53:51 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 13:53:53 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:53:53 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:53:53 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:53:54 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 13:56:06 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 13:56:31 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 13:56:32 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:56:32 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:56:35 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 13:56:41 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:56:41 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:56:42 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 13:56:44 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:56:44 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:56:44 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 13:56:46 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:56:46 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:56:47 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 13:56:52 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:56:53 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:56:53 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:56:53 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 13:57:49 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 13:58:07 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 13:58:08 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:58:08 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:58:10 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 13:58:16 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:58:16 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:58:17 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 13:58:19 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:58:19 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:58:19 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 13:58:21 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 13:58:21 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 13:58:21 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 13:58:27 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 13:58:28 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 13:58:28 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 13:58:29 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:13:03 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:13:25 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:13:25 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:13:25 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:13:30 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:13:36 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:13:36 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:13:37 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:13:43 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:13:43 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:13:43 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:13:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:13:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:13:45 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:13:48 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:13:48 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:13:48 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:13:54 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:13:55 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:13:55 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:13:55 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:17:20 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:17:45 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:17:45 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:17:45 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:17:49 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:17:57 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:17:58 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:17:59 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:18:05 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:18:06 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:18:06 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:18:06 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:18:06 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:18:06 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:18:08 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:18:08 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:18:09 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:18:14 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:18:15 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:18:15 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:18:15 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:34:40 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:35:00 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:35:01 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:35:01 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:35:05 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:35:13 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:35:13 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:35:13 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:35:15 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:35:15 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:35:15 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:35:17 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:35:17 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:35:18 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:35:23 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:35:24 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:35:24 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:35:24 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:36:11 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:38:24 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:38:51 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:38:51 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:38:51 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:38:54 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:39:02 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:39:02 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:39:03 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:39:04 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:39:05 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:39:05 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:39:07 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:39:08 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:39:08 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:39:14 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:39:15 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:39:15 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:39:15 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:44:37 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:44:59 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:45:00 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:45:00 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:45:04 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:45:14 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:45:14 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:45:15 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:45:22 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:45:22 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:45:22 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:45:22 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:45:22 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:45:23 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:45:25 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:45:25 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:45:26 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:45:32 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:45:32 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:45:32 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:45:32 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 14:48:08 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 14:48:38 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 14:48:38 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:48:38 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:48:43 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 14:48:48 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:48:48 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:48:48 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:48:49 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:48:49 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:48:49 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 14:48:51 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:48:52 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:48:52 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:48:52 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:48:52 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:48:52 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 14:48:53 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:48:53 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:48:53 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:48:53 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 14:48:54 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 14:48:54 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 14:48:55 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 14:48:56 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 14:48:56 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 14:48:56 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:03:48 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:04:10 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:04:10 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:04:10 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:04:15 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 15:04:25 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:04:25 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:04:25 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:04:26 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:04:26 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:04:27 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 15:04:29 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:04:29 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:04:29 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:04:32 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:04:33 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:04:34 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 15:04:36 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:04:36 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:04:36 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:04:37 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:04:37 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:04:38 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:04:40 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:04:41 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:04:41 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:04:41 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:07:19 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:07:37 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:07:37 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:07:37 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:07:41 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:07:44 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:07:45 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:07:45 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:07:46 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:13:18 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:13:43 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:13:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:13:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:13:47 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:13:53 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:13:57 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:13:57 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:13:57 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:16:08 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:16:35 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:16:36 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:16:36 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:16:41 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 15:16:50 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:16:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:16:51 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 15:16:53 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:16:53 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:16:53 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 15:16:55 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:23:11 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:23:26 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:23:26 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:23:26 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:23:30 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:23:37 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:23:37 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:23:37 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:23:37 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:24:46 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:25:16 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:25:17 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:25:17 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:25:22 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:25:29 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:25:30 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:25:30 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:25:30 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:26:00 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:26:17 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:26:17 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:26:17 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:26:20 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 15:26:26 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:26:26 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:26:27 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 15:26:30 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:26:30 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:26:31 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 15:26:32 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:26:32 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:26:33 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:26:38 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:26:39 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:26:39 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:26:39 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:45:26 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:45:50 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:45:50 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:45:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:45:53 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:46:00 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:46:01 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:46:01 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:46:01 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:46:58 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:47:21 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:47:21 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:47:22 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:47:29 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:47:43 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:47:44 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:47:44 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:47:44 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:48:45 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:49:41 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:49:41 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:49:41 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:49:47 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:49:54 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:49:56 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:49:56 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:49:56 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:55:55 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:56:16 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:56:16 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:56:16 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:56:19 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:56:27 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:56:27 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:56:27 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:56:27 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:57:21 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:57:41 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:57:41 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:57:41 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:57:44 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:57:52 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:57:53 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:57:53 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:57:53 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 15:58:42 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 15:59:05 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 15:59:06 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 15:59:06 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 15:59:09 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 15:59:16 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 15:59:17 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 15:59:17 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 15:59:17 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:00:19 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:00:43 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:00:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:00:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:00:48 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 16:00:57 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 16:00:58 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 16:00:58 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 16:00:58 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:01:46 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:02:19 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:02:19 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:02:20 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:02:23 Thread: [main] INFO [LoginTest] TestLogin started with filling Email =  , Password = 
+2023-04-21 16:02:31 Thread: [main] INFO [org.example.Listener] Start screenshot
+2023-04-21 16:02:31 Thread: [main] INFO [org.example.Listener] End screenshot
+2023-04-21 16:02:31 Thread: [main] INFO [org.example.Listener] Test failed
+2023-04-21 16:02:31 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:15:15 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:15:39 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:15:40 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:15:40 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:15:44 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 16:15:44 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:15:50 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:15:50 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:15:50 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:15:50 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 16:15:50 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:15:52 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:15:52 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:15:52 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:15:53 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 16:15:53 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:15:55 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:15:55 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:19:04 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:19:39 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:19:39 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:19:40 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:19:43 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 16:19:43 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:19:50 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:19:51 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:19:51 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:19:52 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 16:19:52 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:19:54 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:19:54 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:19:54 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:19:55 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 16:19:55 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:19:56 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:19:56 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:20:51 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:21:19 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:21:19 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:21:19 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:21:25 Thread: [main] INFO [BaseTest] quantityDucksTest started
+2023-04-21 16:21:29 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:21:29 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:21:30 Thread: [main] INFO [BaseTest] sortByDateTest started
+2023-04-21 16:21:33 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:21:34 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:21:34 Thread: [main] INFO [BaseTest] sortByNameTest started
+2023-04-21 16:21:36 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:22:54 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:23:22 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:23:22 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:23:22 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:23:25 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 16:23:25 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:23:32 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:23:32 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:23:33 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:23:33 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123456789
+2023-04-21 16:23:33 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:23:37 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:23:38 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:23:38 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:23:39 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123
+2023-04-21 16:23:39 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:23:43 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:23:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:23:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:23:44 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 16:23:44 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:23:45 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:23:45 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:23:45 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:23:46 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 16:23:46 Thread: [main] INFO [pageOblects.MainPage] Start filling forms and send
+2023-04-21 16:23:47 Thread: [main] INFO [pageOblects.MainPage] Getting Notice Message
+2023-04-21 16:23:47 Thread: [main] INFO [BaseTest] Tests ended
+2023-04-21 16:29:23 Thread: [main] INFO [BaseTest] Before test started
+2023-04-21 16:29:43 Thread: [main] INFO [BaseTest] Before test ended
+2023-04-21 16:29:43 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:29:43 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:29:47 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123
+2023-04-21 16:29:52 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:29:52 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:29:53 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = xwq2@de.com , Password = 123456789
+2023-04-21 16:29:57 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:29:57 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:29:58 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123
+2023-04-21 16:30:03 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:30:03 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:30:03 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 123456789
+2023-04-21 16:30:05 Thread: [main] INFO [BaseTest] beforeMethod deleting cookies
+2023-04-21 16:30:05 Thread: [main] INFO [BaseTest] Opening https://litecart.stqa.ru/en/
+2023-04-21 16:30:05 Thread: [main] INFO [LoginTest] TestLogin started with filling Email = viktar.kudasau@gmail.com , Password = 
+2023-04-21 16:30:08 Thread: [main] INFO [BaseTest] Tests ended

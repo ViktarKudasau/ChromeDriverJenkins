@@ -7,9 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import pageOblects.MainPage;
 import pageOblects.RubberDucksPage;
-
 import java.time.Duration;
-
 import static com.codeborne.selenide.Selenide.open;
 
 @Listeners (Listener.class)
@@ -17,7 +15,6 @@ public class BaseTest {
     protected String baseURL = "https://litecart.stqa.ru/en/";
     protected WebDriver webDriver;
     protected MainPage mainPage;
-
     protected RubberDucksPage rubberDucksPage;
     Logger logger = Logger.getLogger(BaseTest.class);
 
@@ -45,7 +42,6 @@ public class BaseTest {
     @AfterClass
     public void afterClass() throws InterruptedException {
         logger.info("Tests ended");
-  //      webDriver.manage().timeouts().wait(3000);
         webDriver.quit();
     }
 
