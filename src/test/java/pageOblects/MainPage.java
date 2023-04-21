@@ -12,6 +12,7 @@ public class MainPage extends BasePage {
     private static final By PASSWORD = By.xpath("//input[@name='password']");
     private static final By LOGIN = By.xpath("//button[@value='Login']");
     private static final By noticeMessage = By.xpath("//div[@id='notices']");
+//    private static final By emptyFieldMessage = By.xpath("//input[@name='redirect_url']");
 
     Logger logger = Logger.getLogger(MainPage.class);
 
@@ -23,6 +24,6 @@ public class MainPage extends BasePage {
         $(EMAIL).shouldBe(Condition.exist).sendKeys(Email);
         $(PASSWORD).shouldBe(Condition.exist).sendKeys(Password);
         $(LOGIN).shouldBe(Condition.exist).click();
-        return $(noticeMessage).shouldBe(Condition.exist).getText();
+        return $(noticeMessage).shouldBe(Condition.visible).getText();
     }
 }

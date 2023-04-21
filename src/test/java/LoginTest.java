@@ -30,8 +30,8 @@ public class LoginTest extends BaseTest {
     @Test(dataProvider = "LoginValues")
     @Epic("RubberDucks Login Test")
     @Description("Test API 'Login' with different values: correct values, incorrect, empty fields,")
-    public void LoginTest (String Email, String Password, String ExpectedResult) {
-        logger.info("TestLogin started with filling Email = " + Email + " , Password = " + Password);
+    public void Test1 (String Email, String Password, String ExpectedResult) {
+        logger.info("Test1 started with filling Email = " + Email + " , Password = " + Password);
         Assert.assertEquals(mainPage.GetMessage(Email, Password), ExpectedResult);
     }
 }
