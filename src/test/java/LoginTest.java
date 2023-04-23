@@ -34,4 +34,9 @@ public class LoginTest extends BaseTest {
         logger.info("Test1 started with filling Email = " + Email + " , Password = " + Password);
         Assert.assertEquals(mainPage.GetMessage(Email, Password), ExpectedResult);
     }
+
+    @Test
+    public void Test2(){
+        mainPage.getTextFromEmptyField();
+    }
 }
