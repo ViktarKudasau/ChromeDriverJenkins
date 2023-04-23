@@ -37,6 +37,7 @@ public class LoginTest extends BaseTest {
 
     @Test
     public void Test2(){
+        logger.info("Test2 started");
         mainPage.getTextFromEmptyField();
     }
 }
