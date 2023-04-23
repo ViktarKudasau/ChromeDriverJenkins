@@ -3,12 +3,6 @@ package pageOblects;
 import com.codeborne.selenide.Condition;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-
-import java.time.Duration;
-
 import static com.codeborne.selenide.Selenide.$;
 
 public class MainPage extends BasePage {
@@ -16,8 +10,8 @@ public class MainPage extends BasePage {
     private static final By EMAIL = By.xpath("//input[@name='email']");
     private static final By PASSWORD = By.xpath("//input[@name='password']");
     private static final By LOGIN = By.xpath("//button[@value='Login']");
-    private static final By noticeMessage = By.xpath("//div[@id='notices']");
-    private static final By emptyFieldMessage = By.id("box-account-login");
+    private static By noticeMessage = By.xpath("//div[@id='notices']");
+    private static By emptyFieldMessage = By.id("box-account-login");
 
     Logger logger = Logger.getLogger(MainPage.class);
 
